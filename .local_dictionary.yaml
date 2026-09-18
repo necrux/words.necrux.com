@@ -1,328 +1,524 @@
 accumulate:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/En-us-accumulate.ogg/En-us-accumulate.ogg.mp3
-  definition: Collected; accumulated.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/accumu01.mp3
+  audio_source: merriam-webster
+  definition: collect, gather
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation: ə-ˈkyü-myə-ˌlāt
+  pronunciation_source: merriam-webster
   word: accumulate
 allowance:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/En-us-allowance.ogg/En-us-allowance.ogg.mp3
-  definition: Permission; granting, conceding, or admitting.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/allowa03.mp3
+  audio_source: merriam-webster
+  definition: an amount of money given regularly for a specific purpose
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ə-ˈlau̇-əns
+  pronunciation_source: merriam-webster
   word: allowance
 appetite:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/En-us-appetite.ogg/En-us-appetite.ogg.mp3
-  definition: A desire to eat food or consume drinks.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/appeti01.mp3
+  audio_source: merriam-webster
+  definition: a natural desire especially for food
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈa-pə-ˌtīt
+  pronunciation_source: merriam-webster
   word: appetite
 approach:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/En-us-approach.ogg/En-us-approach.ogg.mp3
-  definition: An act of drawing near in place or time; an advancing or coming near.
-  part_of_speech: noun
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/approa01.mp3
+  audio_source: merriam-webster
+  definition: 'to come near or nearer : draw close'
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation: ə-ˈprōch
+  pronunciation_source: merriam-webster
   word: approach
 artistic:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/LL-Q1860_%28eng%29-Wodencafe-artistic.wav/LL-Q1860_%28eng%29-Wodencafe-artistic.wav.mp3
-  definition: Having or revealing creative skill.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/artist03.mp3
+  audio_source: merriam-webster
+  definition: relating to art or artists
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: är-ˈti-stik
+  pronunciation_source: merriam-webster
   word: artistic
 athleticism:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/LL-Q1860_%28eng%29-TranqyPoo-athleticism.wav/LL-Q1860_%28eng%29-TranqyPoo-athleticism.wav.mp3
-  definition: The state of being an athlete, or of taking part in athletic events.
-  part_of_speech: noun
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/athlet04.mp3
+  audio_source: merriam-webster
+  definition: of, relating to, or characteristic of athletes or athletics
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: ath-ˈle-tik
+  pronunciation_source: merriam-webster
   word: athleticism
 atomic:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/En-us-atomic.ogg/En-us-atomic.ogg.mp3
-  definition: Of or relating to atoms; composed of atoms; monatomic.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/atomic01.mp3
+  audio_source: merriam-webster
+  definition: of or relating to atoms
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: ə-ˈtä-mik
+  pronunciation_source: merriam-webster
   word: atomic
 capitalism:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/LL-Q1860_%28eng%29-Vealhurl-capitalism.wav/LL-Q1860_%28eng%29-Vealhurl-capitalism.wav.mp3
-  definition: A socio-economic system based on private ownership of resources, and
-    capital and their exploitation for profit.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/capita02.mp3
+  audio_source: merriam-webster
+  definition: a system under which the ownership of land and wealth is for the most
+    part in the hands of private individuals
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈka-pə-tə-ˌliz-əm
+  pronunciation_source: merriam-webster
   word: capitalism
 coincide:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/En-us-coincide.ogg/En-us-coincide.ogg.mp3
-  definition: To occupy exactly the same space.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coinci02.mp3
+  audio_source: merriam-webster
+  definition: to happen at the same time
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˌkō-ən-ˈsīd
+  pronunciation_source: merriam-webster
   word: coincide
 comic:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/En-us-comic.ogg/En-us-comic.ogg.mp3
-  definition: Pertaining to comedy, as a literary genre.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/comic001.mp3
+  audio_source: merriam-webster
+  definition: of, relating to, or characteristic of comedy
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈkä-mik
+  pronunciation_source: merriam-webster
   word: comic
 committee:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4a/En-us-committee.ogg/En-us-committee.ogg.mp3
-  definition: A body of one or more persons convened for the accomplishment of some
-    specific purpose, typically with formal protocols.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/commit05.mp3
+  audio_source: merriam-webster
+  definition: a group of persons appointed or elected to study a problem, plan an
+    event, or perform a specific duty
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: kə-ˈmi-tē
+  pronunciation_source: merriam-webster
   word: committee
 cowardice:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/LL-Q1860_%28eng%29-Vealhurl-cowardice.wav/LL-Q1860_%28eng%29-Vealhurl-cowardice.wav.mp3
-  definition: Lack of courage.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coward02.mp3
+  audio_source: merriam-webster
+  definition: shameful fear
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈkau̇-ər-dəs
+  pronunciation_source: merriam-webster
   word: cowardice
 devastate:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/En-us-devastate.ogg/En-us-devastate.ogg.mp3
-  definition: To ruin many or all things over a large area, such as most or all buildings
-    of a city, or cities of a region, or trees of a forest.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/d/devast01.mp3
+  audio_source: merriam-webster
+  definition: to destroy entirely or nearly entirely
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈde-və-ˌstāt
+  pronunciation_source: merriam-webster
   word: devastate
 dramatic:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/En-us-dramatic.ogg/En-us-dramatic.ogg.mp3
-  definition: Of or relating to the drama.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/d/dramat01.mp3
+  audio_source: merriam-webster
+  definition: having to do with drama
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: drə-ˈma-tik
+  pronunciation_source: merriam-webster
   word: dramatic
 elevate:
-  audio: null
-  definition: Elevated, raised aloft.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/elevat01.mp3
+  audio_source: merriam-webster
+  definition: 'to lift up : raise'
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈe-lə-ˌvāt
+  pronunciation_source: merriam-webster
   word: elevate
 embroider:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/En-us-embroider.ogg/En-us-embroider.ogg.mp3
-  definition: To stitch a decorative design on fabric with needle and thread of various
-    colours.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/embroi01.mp3
+  audio_source: merriam-webster
+  definition: to make with needlework
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: im-ˈbrȯi-dər
+  pronunciation_source: merriam-webster
   word: embroider
 endeavor:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/En-us-endeavor.ogg/En-us-endeavor.ogg.mp3
-  definition: A sincere attempt; a determined or assiduous effort towards a specific
-    goal; assiduous or persistent activity.
-  part_of_speech: noun
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/endeav01.mp3
+  audio_source: merriam-webster
+  definition: 'to make an effort : try hard'
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation: in-ˈde-vər
+  pronunciation_source: merriam-webster
   word: endeavor
 eradicate:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/En-us-eradicate.ogg/En-us-eradicate.ogg.mp3
-  definition: To pull up by the roots.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/eradic01.mp3
+  audio_source: merriam-webster
+  definition: to destroy completely
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: i-ˈra-də-ˌkāt
+  pronunciation_source: merriam-webster
   word: eradicate
 evacuate:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0d/LL-Q1860_%28eng%29-M%C3%A9lange_a_trois-evacuate.wav/LL-Q1860_%28eng%29-M%C3%A9lange_a_trois-evacuate.wav.mp3
-  definition: To leave or withdraw from; to quit; to retire from.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evacua01.mp3
+  audio_source: merriam-webster
+  definition: to leave or cause to leave a place of danger
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: i-ˈva-kyə-ˌwāt
+  pronunciation_source: merriam-webster
   word: evacuate
 evaporate:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/En-us-evaporate.ogg/En-us-evaporate.ogg.mp3
-  definition: evaporated
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evapor01.mp3
+  audio_source: merriam-webster
+  definition: to change into vapor
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation: i-ˈva-pə-ˌrāt
+  pronunciation_source: merriam-webster
   word: evaporate
 excavate:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/LL-Q1860_%28eng%29-Vealhurl-excavate.wav/LL-Q1860_%28eng%29-Vealhurl-excavate.wav.mp3
-  definition: Made hollow.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/excava01.mp3
+  audio_source: merriam-webster
+  definition: to expose to view by digging away a covering
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈek-skə-ˌvāt
+  pronunciation_source: merriam-webster
   word: excavate
 executive:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/En-us-executive.ogg/En-us-executive.ogg.mp3
-  definition: Designed or fitted for execution, or carrying into effect.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/execut06.mp3
+  audio_source: merriam-webster
+  definition: fitted for or relating to the managing or directing of things
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: ig-ˈze-kyə-tiv
+  pronunciation_source: merriam-webster
   word: executive
 flounder:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/En-us-flounder.ogg/En-us-flounder.ogg.mp3
-  definition: A European species of flatfish having dull brown colouring with reddish-brown
-    blotches; fluke, European flounder (Platichthys flesus).
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/f/flound01.mp3
+  audio_source: merriam-webster
+  definition: a flatfish used for food
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈflau̇n-dər
+  pronunciation_source: merriam-webster
   word: flounder
 heroic:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/En-us-heroic.ogg/En-us-heroic.ogg.mp3
-  definition: Of or relating to a hero or heroine; supremely noble.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/h/heroic01.mp3
+  audio_source: merriam-webster
+  definition: of or relating to heroism or heroes
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: hi-ˈrō-ik
+  pronunciation_source: merriam-webster
   word: heroic
 heroism:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/En-us-heroism.ogg/En-us-heroism.ogg.mp3
-  definition: The qualities characteristic of a hero, such as courage, bravery, fortitude,
-    selflessness, etc.; the display of such qualities.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/h/herois01.mp3
+  audio_source: merriam-webster
+  definition: behavior showing great courage especially for a noble purpose
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈher-ə-ˌwi-zəm
+  pronunciation_source: merriam-webster
   word: heroism
 historic:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1b/En-us-historic.ogg/En-us-historic.ogg.mp3
-  definition: 'Very important; noteworthy: having importance or significance in history.'
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/h/histor02.mp3
+  audio_source: merriam-webster
+  definition: famous in history
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: hi-ˈstȯr-ik
+  pronunciation_source: merriam-webster
   word: historic
 improvise:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/En-us-improvise.ogg/En-us-improvise.ogg.mp3
-  definition: To make something up or invent it as one goes on; to proceed guided
-    only by imagination, intuition, and guesswork rather than by a careful plan.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/improv14.mp3
+  audio_source: merriam-webster
+  definition: to speak or perform without preparing ahead of time
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈim-prə-ˌvīz
+  pronunciation_source: merriam-webster
   word: improvise
 intervene:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/LL-Q1860_%28eng%29-Vealhurl-intervene.wav/LL-Q1860_%28eng%29-Vealhurl-intervene.wav.mp3
-  definition: To become involved in a situation, so as to alter or prevent an action.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/interv05.mp3
+  audio_source: merriam-webster
+  definition: to come or occur between events, places, or points of time
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˌin-tər-ˈvēn
+  pronunciation_source: merriam-webster
   word: intervene
 kinetic:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/LL-Q1860_%28eng%29-Tesco250-kinetic.wav/LL-Q1860_%28eng%29-Tesco250-kinetic.wav.mp3
-  definition: Relating to motion.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/k/kineti01.mp3
+  audio_source: merriam-webster
+  definition: relating to the motions of objects and the forces associated with them
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: kə-ˈne-tik
+  pronunciation_source: merriam-webster
   word: kinetic
 liberate:
-  audio: null
-  definition: Freed, released; free.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/l/libera11.mp3
+  audio_source: merriam-webster
+  definition: to set free
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈli-bə-ˌrāt
+  pronunciation_source: merriam-webster
   word: liberate
 marshmallow:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/En-us-marshmallow.ogg/En-us-marshmallow.ogg.mp3
-  definition: Marsh mallow, a species of mallow, Althaea officinalis, that grows in
-    marshy terrain.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/m/marshm01.mp3
+  audio_source: merriam-webster
+  definition: a soft spongy sweet food made from corn syrup, sugar, and gelatin
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈmärsh-ˌme-lō
+  pronunciation_source: merriam-webster
   word: marshmallow
 narrative:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/En-us-narrative.ogg/En-us-narrative.ogg.mp3
-  definition: Telling a story.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/narrat06.mp3
+  audio_source: merriam-webster
+  definition: something (as a story) that is told in full detail
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈner-ə-tiv
+  pronunciation_source: merriam-webster
   word: narrative
 nautical:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/En-us-nautical.ogg/En-us-nautical.ogg.mp3
-  definition: Of, relating to, or characteristic of sailing, sailors, or the sea.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/nautic01.mp3
+  audio_source: merriam-webster
+  definition: of or relating to sailors, navigation, or ships
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈnȯ-ti-kəl
+  pronunciation_source: merriam-webster
   word: nautical
 negotiate:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/En-us-negotiate.ogg/En-us-negotiate.ogg.mp3
-  definition: To confer with others in order to come to terms or reach an agreement.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/negoti05.mp3
+  audio_source: merriam-webster
+  definition: to have a discussion with another in order to settle something
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ni-ˈgō-shē-ˌāt
+  pronunciation_source: merriam-webster
   word: negotiate
 obsolete:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/En-us-obsolete.ogg/En-us-obsolete.ogg.mp3
-  definition: No longer in use or no longer useful; now disused or neglected (often
-    in favour of something newer, better, or more fashionable); outmoded.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/obsole04.mp3
+  audio_source: merriam-webster
+  definition: 'no longer in use : out-of-date'
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: ˌäb-sə-ˈlēt
+  pronunciation_source: merriam-webster
   word: obsolete
 organism:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/85/En-us-organism.ogg/En-us-organism.ogg.mp3
-  definition: A discrete and complete living thing, such as animal, plant, fungus
-    or microorganism.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/organi06.mp3
+  audio_source: merriam-webster
+  definition: a living thing made up of one or more cells and able to carry on the
+    activities of life (as using energy, growing, or reproducing)
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈȯr-gə-ˌni-zəm
+  pronunciation_source: merriam-webster
   word: organism
 possessive:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e4/LL-Q1860_%28eng%29-Vealhurl-possessive.wav/LL-Q1860_%28eng%29-Vealhurl-possessive.wav.mp3
-  definition: Of or pertaining to ownership or possession.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/posses08.mp3
+  audio_source: merriam-webster
+  definition: being or belonging to the case of a noun or pronoun that shows possession
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: pə-ˈze-siv
+  pronunciation_source: merriam-webster
   word: possessive
 proclaim:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/LL-Q1860_%28eng%29-Vealhurl-proclaim.wav/LL-Q1860_%28eng%29-Vealhurl-proclaim.wav.mp3
-  definition: To announce or declare.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/procla01.mp3
+  audio_source: merriam-webster
+  definition: 'to announce publicly : declare'
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: prō-ˈklām
+  pronunciation_source: merriam-webster
   word: proclaim
 prosecute:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/LL-Q1860_%28eng%29-Vealhurl-prosecute.wav/LL-Q1860_%28eng%29-Vealhurl-prosecute.wav.mp3
-  definition: To start criminal proceedings against.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/prosec02.mp3
+  audio_source: merriam-webster
+  definition: to carry on a legal action against an accused person to prove his or
+    her guilt
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈprä-si-ˌkyüt
+  pronunciation_source: merriam-webster
   word: prosecute
 provoke:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/En-us-provoke.ogg/En-us-provoke.ogg.mp3
-  definition: To cause someone to become annoyed or angry.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/provok01.mp3
+  audio_source: merriam-webster
+  definition: to cause to become angry
+  definition_source: merriam-webster
   part_of_speech: verb
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: prə-ˈvōk
+  pronunciation_source: merriam-webster
   word: provoke
 realism:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/LL-Q1860_%28eng%29-Wodencafe-realism.wav/LL-Q1860_%28eng%29-Wodencafe-realism.wav.mp3
-  definition: A concern for fact or reality and rejection of the impractical and visionary.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/realis01.mp3
+  audio_source: merriam-webster
+  definition: willingness to face facts or to give in to what is necessary
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈrē-ə-ˌli-zəm
+  pronunciation_source: merriam-webster
   word: realism
 realm:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/En-us-realm.ogg/En-us-realm.ogg.mp3
-  definition: A territory or state, as ruled by an absolute authority, especially
-    by a king; a kingdom.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/realm001.mp3
+  audio_source: merriam-webster
+  definition: kingdom
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈrelm
+  pronunciation_source: merriam-webster
   word: realm
 remote:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/En-us-remote.ogg/En-us-remote.ogg.mp3
-  definition: At a distance; disconnected.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/remote01.mp3
+  audio_source: merriam-webster
+  definition: far off in place or time
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: ri-ˈmōt
+  pronunciation_source: merriam-webster
   word: remote
 royalty:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/En-us-royalty.ogg/En-us-royalty.ogg.mp3
-  definition: The rank, status, power or authority of a monarch.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/royalt01.mp3
+  audio_source: merriam-webster
+  definition: the status or power of a king or queen or his or her family
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈrȯi-əl-tē
+  pronunciation_source: merriam-webster
   word: royalty
 schedule:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/En-us-schedule.ogg/En-us-schedule.ogg.mp3
-  definition: A procedural plan, usually but not necessarily tabular in nature, indicating
-    a sequence of operations and the planned times at which those operations are to
-    occur.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/schedu01.mp3
+  audio_source: merriam-webster
+  definition: a plan of things that need to be done and the times they will be done
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈske-jül
+  pronunciation_source: merriam-webster
   word: schedule
 scoundrel:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ec/LL-Q1860_%28eng%29-Vealhurl-scoundrel.wav/LL-Q1860_%28eng%29-Vealhurl-scoundrel.wav.mp3
-  definition: A mean, worthless fellow; a rascal; a villain; a person without honor
-    or virtue.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/scound01.mp3
+  audio_source: merriam-webster
+  definition: a mean or wicked person
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈskau̇n-drəl
+  pronunciation_source: merriam-webster
   word: scoundrel
 secretive:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/LL-Q1860_%28eng%29-Vealhurl-secretive1.wav/LL-Q1860_%28eng%29-Vealhurl-secretive1.wav.mp3
-  definition: Having an inclination to secrecy.
-  part_of_speech: adj
-  pronunciation: null
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/secret12.mp3
+  audio_source: merriam-webster
+  definition: tending to act in secret or keep secrets
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈsē-krə-tiv
+  pronunciation_source: merriam-webster
   word: secretive
 tourism:
   audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/LL-Q1860_%28eng%29-Wodencafe-tourism.wav/LL-Q1860_%28eng%29-Wodencafe-tourism.wav.mp3
+  audio_source: wiktapi
   definition: The act of travelling or sightseeing, particularly away from one's home.
-  part_of_speech: noun
+  definition_source: wiktapi
+  part_of_speech: null
+  part_of_speech_source: null
   pronunciation: null
+  pronunciation_source: null
   word: tourism
 treachery:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/LL-Q1860_%28eng%29-Vealhurl-treachery.wav/LL-Q1860_%28eng%29-Vealhurl-treachery.wav.mp3
-  definition: Deliberate, often calculated, disregard for trust or faith.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/treach02.mp3
+  audio_source: merriam-webster
+  definition: the behavior of a person who betrays trust or faith
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈtre-chə-rē
+  pronunciation_source: merriam-webster
   word: treachery
 treasury:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/En-us-treasury.ogg/En-us-treasury.ogg.mp3
-  definition: A place where treasure is stored safely.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/treasu09.mp3
+  audio_source: merriam-webster
+  definition: a place in which money and valuable objects are kept
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈtre-zhə-rē
+  pronunciation_source: merriam-webster
   word: treasury
 typhoon:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/En-us-typhoon.ogg/En-us-typhoon.ogg.mp3
-  definition: A severe tropical cyclone; an intense, rotating storm.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/typhoo01.mp3
+  audio_source: merriam-webster
+  definition: a tropical cyclone in the region of the Philippines or the China Sea
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: tī-ˈfün
+  pronunciation_source: merriam-webster
   word: typhoon
 zeal:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/En-us-zeal.ogg/En-us-zeal.ogg.mp3
-  definition: The fervour or tireless devotion for a person, cause, or ideal and determination
-    in its furtherance; diligent enthusiasm; powerful interest.
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/z/zeal0001.mp3
+  audio_source: merriam-webster
+  definition: eager desire to get something done or see something succeed
+  definition_source: merriam-webster
   part_of_speech: noun
-  pronunciation: null
+  part_of_speech_source: merriam-webster
+  pronunciation: ˈzēl
+  pronunciation_source: merriam-webster
   word: zeal
