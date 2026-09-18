@@ -1,0 +1,28 @@
+{% extends "base.html.j2" %}
+
+{% block title %}
+{{ title }} | {{ display.site.title }}
+{% endblock %}
+
+{% block content %}
+
+<h1>{{ title }}</h1>
+
+<ul>
+{% for test in tests %}
+    <li>
+        <a href="test_{{ test.number }}.html">
+            {{ test.title }}
+        </a>
+        {% if test.testDate %}
+            — {{ test.testDate }}
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>
+
+<p>
+    <a href="../index.html">Back to Home</a>
+</p>
+
+{% endblock %}

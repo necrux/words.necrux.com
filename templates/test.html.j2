@@ -1,0 +1,132 @@
+{% extends "base.html.j2" %}
+
+{% block title %}
+{{ test.title }} | {{ display.site.title }}
+{% endblock %}
+
+{% block content %}
+
+<h1>{{ test.title }}</h1>
+
+{% if test.notes %}
+<p>
+    <h3>{{ test.notes }}</h3>
+</p>
+{% endif %}
+
+{% if test.dateGiven or test.testDate %}
+<p>
+    {% if test.dateGiven %}
+        <strong>Words Given:</strong> {{ test.dateGiven }}
+    {% endif %}
+
+    {% if test.testDate %}
+        {% if test.dateGiven %} | {% endif %}
+        <strong>Test Date:</strong> {{ test.testDate }}
+    {% endif %}
+</p>
+{% endif %}
+
+<h2>Words</h2>
+
+<ul>
+{% for word in test.words %}
+    <li>
+        <strong>{{ word.word }}</strong>
+
+        {% if word.audio %}
+        <button
+            type="button"
+            class="audio-button"
+            aria-label="Play recorded pronunciation of {{ word.word }}"
+            onclick="new Audio('{{ word.audio }}').play()"
+        >
+            🔊 Recorded
+        </button>
+        {% endif %}
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="{{ word.word }}"
+            aria-label="Hear browser pronunciation of {{ word.word }}"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            {% if word.part_of_speech %}
+            <p>
+                <strong>Part of Speech:</strong>
+                {{ word.part_of_speech }}
+            </p>
+            {% endif %}
+
+            {% if word.definition %}
+            <p>
+                <strong>Definition:</strong>
+                {{ word.definition }}
+            </p>
+            {% endif %}
+        </details>
+    </li>
+{% endfor %}
+</ul>
+
+{% if test.challengeWords %}
+<h2>Challenge Words</h2>
+
+<ul>
+{% for word in test.challengeWords %}
+    <li>
+        <strong>{{ word.word }}</strong>
+
+        {% if word.audio %}
+        <button
+            type="button"
+            class="audio-button"
+            aria-label="Play recorded pronunciation of {{ word.word }}"
+            onclick="new Audio('{{ word.audio }}').play()"
+        >
+            🔊 Recorded
+        </button>
+        {% endif %}
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="{{ word.word }}"
+            aria-label="Hear browser pronunciation of {{ word.word }}"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            {% if word.part_of_speech %}
+            <p>
+                <strong>Part of Speech:</strong>
+                {{ word.part_of_speech }}
+            </p>
+            {% endif %}
+
+            {% if word.definition %}
+            <p>
+                <strong>Definition:</strong>
+                {{ word.definition }}
+            </p>
+            {% endif %}
+        </details>
+    </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+<p>
+    <a href="../../index.html">Back to Home</a>
+</p>
+
+{% endblock %}

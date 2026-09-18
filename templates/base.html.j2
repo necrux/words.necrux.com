@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>5th Grade Spelling Words</title>
+    <title>{% block title %}{{ display.site.title }}{% endblock %}</title>
 
     <style>
         :root {
-            --background: #0f172a;
-            --foreground: #e2e8f0;
-            --accent: #67e8f9;
-            --muted: #94a3b8;
-            --border: #334155;
+            --background: {{ display.colors.background }};
+            --foreground: {{ display.colors.foreground }};
+            --accent: {{ display.colors.accent }};
+            --muted: {{ display.colors.muted }};
+            --border: {{ display.colors.border }};
 
-            --body-font: monospace;
-            --heading-font: monospace;
-            --body-size: 1.1rem;
-            --max-width: 900px;
+            --body-font: {{ display.fonts.body }};
+            --heading-font: {{ display.fonts.heading }};
+            --body-size: {{ display.font_sizes.body }};
+            --max-width: {{ display.layout.max_width }};
         }
 
         * {
@@ -83,20 +83,7 @@
 
 <body>
 <main>
-    
-
-<h1>5th Grade Spelling Words</h1>
-
-<ul>
-    <li>
-        <a href="site/latest/index.html">Latest Words</a>
-    </li>
-    <li>
-        <a href="site/historic/index.html">Historic Words</a>
-    </li>
-</ul>
-
-
+    {% block content %}{% endblock %}
 </main>
 
 <script>
@@ -108,8 +95,8 @@
         window.speechSynthesis.cancel();
 
         const utterance = new SpeechSynthesisUtterance(word);
-        utterance.lang = "en-US";
-        utterance.rate = 0.8;
+        utterance.lang = "{{ display.speech.language }}";
+        utterance.rate = {{ display.speech.rate }};
 
         window.speechSynthesis.speak(utterance);
     }

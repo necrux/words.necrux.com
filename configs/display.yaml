@@ -1,0 +1,24 @@
+---
+site:
+  title: "5th Grade Spelling Words"
+
+colors:
+  background: "#0f172a"
+  foreground: "#e2e8f0"
+  accent: "#67e8f9"
+  muted: "#94a3b8"
+  border: "#334155"
+
+fonts:
+  body: "monospace"
+  heading: "monospace"
+
+font_sizes:
+  body: "1.1rem"
+
+speech:
+  language: "en-US"
+  rate: 0.8
+
+layout:
+  max_width: "900px"
