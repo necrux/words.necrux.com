@@ -1,0 +1,119 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+
+<div class="practice-test">
+    <h1>Practice Spelling Test</h1>
+
+    <p class="instructions">
+        Listen to each word, write it down, then reveal the word to check your spelling.
+    </p>
+
+    <div class="practice-words">
+        {% for word in test.words %}
+        <div class="practice-word">
+            <span class="word-number">{{ loop.index }}.</span>
+
+            {% if word.audio %}
+            <button
+                type="button"
+                class="audio-button"
+                onclick="playWord('{{ word.audio }}')"
+                aria-label="Play word {{ loop.index }}"
+                title="Play word"
+            >
+                🔊
+            </button>
+            {% endif %}
+
+            <span class="hidden-word">
+                {{ word.word }}
+            </span>
+
+            <button
+                type="button"
+                class="reveal-button"
+                onclick="revealWord(this)"
+            >
+                Reveal Word
+            </button>
+        </div>
+        {% endfor %}
+    </div>
+
+    <p class="back-link">
+        <a href="index.html">← Back to Test</a>
+    </p>
+</div>
+
+<style>
+    .practice-test {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .instructions {
+        margin-bottom: 2rem;
+    }
+
+    .practice-words {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .practice-word {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        min-height: 3rem;
+    }
+
+    .word-number {
+        width: 2rem;
+        text-align: right;
+    }
+
+    .audio-button,
+    .reveal-button {
+        cursor: pointer;
+        font: inherit;
+    }
+
+    .audio-button {
+        padding: 0.4rem 0.6rem;
+    }
+
+    .reveal-button {
+        padding: 0.4rem 0.8rem;
+    }
+
+    .hidden-word {
+        display: none;
+    }
+
+    .hidden-word.revealed {
+        display: inline;
+        font-weight: bold;
+    }
+
+    .back-link {
+        margin-top: 2rem;
+    }
+</style>
+
+<script>
+    function playWord(url) {
+        const audio = new Audio(url);
+        audio.play();
+    }
+
+    function revealWord(button) {
+        const word = button.parentElement.querySelector(".hidden-word");
+
+        word.classList.add("revealed");
+        button.remove();
+    }
+</script>
+
+{% endblock %}

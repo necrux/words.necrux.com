@@ -24,6 +24,10 @@
         {% if test.dateGiven %}</br>{% endif %}
         <strong>Test Date:</strong> {{ test.testDate }}
     {% endif %}
+
+    {% if test.is_latest %}
+        <p><a href="practice.html">Practice Spelling Test</a></p>
+    {% endif %}
 </p>
 {% endif %}
 
