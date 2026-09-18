@@ -70,6 +70,21 @@
                 {{ word.definition }}
             </p>
             {% endif %}
+
+            {% if word.pronunciation %}
+            <p>
+                <strong>Pronunciation:</strong>
+                {{ word.pronunciation }} <a
+                href="https://www.merriam-webster.com/assets/mw/static/pdf/help/guide-to-pronunciation.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Learn how to read Merriam-Webster pronunciation symbols"
+                title="How to read Merriam-Webster pronunciation symbols"
+                >
+                ?
+                </a>
+            </p>
+            {% endif %}
         </details>
     </li>
 {% endfor %}
