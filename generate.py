@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).parent
 WORDS_DIR = BASE_DIR / "words"
 CONFIG_DIR = BASE_DIR / "configs"
 TEMPLATES_DIR = BASE_DIR / "templates"
-SITE_DIR = BASE_DIR / "site"
+SITE_DIR = BASE_DIR / "public"
 
 CACHE_FILE = BASE_DIR / ".local_dictionary.yaml"
 
@@ -485,11 +485,11 @@ def render_homepage(environment, display, latest_test):
     render_template(
         environment,
         "index.html.j2",
-        BASE_DIR / "index.html",
+        SITE_DIR / "index.html",
         display=display,
         test=latest_test,
-        latest_url="site/latest/index.html",
-        historic_url="site/historic/index.html",
+        latest_url="latest/index.html",
+        historic_url="historic/index.html",
     )
 
 
