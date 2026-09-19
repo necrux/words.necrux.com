@@ -6,18 +6,40 @@
 
     <title>5th Grade Spelling Words</title>
 
+    <script>
+        const initialTheme = localStorage.getItem("theme");
+
+        if (
+            initialTheme === "dark" ||
+            (
+                initialTheme !== "light" &&
+                window.matchMedia("(prefers-color-scheme: dark)").matches
+            )
+        ) {
+            document.documentElement.classList.add("dark");
+        }
+    </script>
+
     <style>
         :root {
-            --background: #0f172a;
-            --foreground: #e2e8f0;
-            --accent: #67e8f9;
-            --muted: #94a3b8;
-            --border: #334155;
+            --background: #f8fafc;
+            --foreground: #0f172a;
+            --accent: #0369a1;
+            --muted: #64748b;
+            --border: #cbd5e1;
 
             --body-font: monospace;
             --heading-font: monospace;
             --body-size: 1.1rem;
             --max-width: 900px;
+        }
+
+        html.dark {
+            --background: #0f172a;
+            --foreground: #e2e8f0;
+            --accent: #67e8f9;
+            --muted: #94a3b8;
+            --border: #334155;
         }
 
         * {
@@ -104,11 +126,42 @@
             width: 1.5rem;
             height: 1.5rem;
         }
+
+        .theme-controls {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 1rem;
+        }
+
+        .theme-toggle {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--accent);
+            cursor: pointer;
+            font-family: var(--body-font);
+            padding: 0.25rem 0.5rem;
+        }
+
+        .theme-toggle:hover {
+            background: var(--accent);
+            color: var(--background);
+        }
     </style>
 </head>
 
 <body>
 <main>
+    <div class="theme-controls">
+        <button
+            type="button"
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Switch to dark mode"
+        >
+            ☾ Dark
+        </button>
+    </div>
+
     
 
 <h1>5th Grade Spelling Words</h1>
@@ -167,6 +220,51 @@
         </svg>
     </a>
 </footer>
+
+<script>
+    const themeToggle = document.querySelector("#theme-toggle");
+
+    function setTheme(dark) {
+        document.documentElement.classList.toggle("dark", dark);
+
+        themeToggle.textContent = dark
+            ? "☀ Light"
+            : "☾ Dark";
+
+        themeToggle.setAttribute(
+            "aria-label",
+            dark
+                ? "Switch to light mode"
+                : "Switch to dark mode"
+        );
+    }
+
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+        setTheme(true);
+    } else if (savedTheme === "light") {
+        setTheme(false);
+    } else {
+        setTheme(
+            window.matchMedia(
+                "(prefers-color-scheme: dark)"
+            ).matches
+        );
+    }
+
+    themeToggle.addEventListener("click", () => {
+        const dark =
+            !document.documentElement.classList.contains("dark");
+
+        setTheme(dark);
+
+        localStorage.setItem(
+            "theme",
+            dark ? "dark" : "light"
+        );
+    });
+</script>
 
 <script>
     function speakWord(word) {
