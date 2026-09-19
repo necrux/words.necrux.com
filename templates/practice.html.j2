@@ -10,6 +10,7 @@
     </p>
 
     <div class="practice-words">
+        <h2>Words</h2>
         {% for word in test.words %}
         <div class="practice-word">
             <span class="word-number">{{ loop.index }}.</span>
@@ -40,6 +41,42 @@
         </div>
         {% endfor %}
     </div>
+
+    {% if test.challengeWords %}
+    <h2>Challenge Words</h2>
+
+    <div class="practice-words">
+        {% for word in test.challengeWords %}
+        <div class="practice-word">
+            <span class="word-number">{{ loop.index }}.</span>
+
+            {% if word.audio %}
+            <button
+                type="button"
+                class="audio-button"
+                onclick="playWord('{{ word.audio }}')"
+                aria-label="Play challenge word {{ loop.index }}"
+                title="Play word"
+            >
+                🔊
+            </button>
+            {% endif %}
+
+            <span class="hidden-word">
+                {{ word.word }}
+            </span>
+
+            <button
+                type="button"
+                class="reveal-button"
+                onclick="revealWord(this)"
+            >
+                Reveal Word
+            </button>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
 
     <p class="back-link">
         <a href="index.html">← Back to Test</a>
