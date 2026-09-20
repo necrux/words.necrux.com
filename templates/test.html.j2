@@ -72,6 +72,14 @@
             <p>
                 <strong>Definition:</strong>
                 {{ word.definition }}
+                <button
+                type="button"
+                class="speech-button"
+                data-word="{{ word.definition }}"
+                aria-label="Hear browser pronunciation of {{ word.definition }}"
+                >
+                    🗣️ Read
+                </button>
             </p>
             {% endif %}
 
@@ -135,6 +143,14 @@
             <p>
                 <strong>Definition:</strong>
                 {{ word.definition }}
+                <button
+                type="button"
+                class="speech-button"
+                data-word="{{ word.definition }}"
+                aria-label="Hear browser pronunciation of {{ word.definition }}"
+                >
+                    🗣️ Read
+                </button>
             </p>
             {% endif %}
 
