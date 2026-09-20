@@ -1,524 +1,834 @@
-accumulate:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/accumu01.mp3
-  audio_source: merriam-webster
-  definition: collect, gather
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: ə-ˈkyü-myə-ˌlāt
-  pronunciation_source: merriam-webster
-  word: accumulate
-allowance:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/allowa03.mp3
-  audio_source: merriam-webster
-  definition: an amount of money given regularly for a specific purpose
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ə-ˈlau̇-əns
-  pronunciation_source: merriam-webster
-  word: allowance
-appetite:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/appeti01.mp3
-  audio_source: merriam-webster
-  definition: a natural desire especially for food
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈa-pə-ˌtīt
-  pronunciation_source: merriam-webster
-  word: appetite
-approach:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/approa01.mp3
-  audio_source: merriam-webster
-  definition: 'to come near or nearer : draw close'
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: ə-ˈprōch
-  pronunciation_source: merriam-webster
-  word: approach
-artistic:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/artist03.mp3
-  audio_source: merriam-webster
-  definition: relating to art or artists
-  definition_source: merriam-webster
-  part_of_speech: adjective
-  part_of_speech_source: merriam-webster
-  pronunciation: är-ˈti-stik
-  pronunciation_source: merriam-webster
-  word: artistic
-athleticism:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/athlet04.mp3
-  audio_source: merriam-webster
-  definition: of, relating to, or characteristic of athletes or athletics
-  definition_source: merriam-webster
-  part_of_speech: adjective
-  part_of_speech_source: merriam-webster
-  pronunciation: ath-ˈle-tik
-  pronunciation_source: merriam-webster
-  word: athleticism
-atomic:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/atomic01.mp3
-  audio_source: merriam-webster
-  definition: of or relating to atoms
-  definition_source: merriam-webster
-  part_of_speech: adjective
-  part_of_speech_source: merriam-webster
-  pronunciation: ə-ˈtä-mik
-  pronunciation_source: merriam-webster
-  word: atomic
-capitalism:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/capita02.mp3
-  audio_source: merriam-webster
-  definition: a system under which the ownership of land and wealth is for the most
-    part in the hands of private individuals
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈka-pə-tə-ˌliz-əm
-  pronunciation_source: merriam-webster
-  word: capitalism
-coincide:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coinci02.mp3
-  audio_source: merriam-webster
-  definition: to happen at the same time
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: ˌkō-ən-ˈsīd
-  pronunciation_source: merriam-webster
-  word: coincide
-comic:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/comic001.mp3
-  audio_source: merriam-webster
-  definition: of, relating to, or characteristic of comedy
-  definition_source: merriam-webster
-  part_of_speech: adjective
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈkä-mik
-  pronunciation_source: merriam-webster
-  word: comic
-committee:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/commit05.mp3
-  audio_source: merriam-webster
-  definition: a group of persons appointed or elected to study a problem, plan an
-    event, or perform a specific duty
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: kə-ˈmi-tē
-  pronunciation_source: merriam-webster
-  word: committee
-cowardice:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coward02.mp3
-  audio_source: merriam-webster
-  definition: shameful fear
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈkau̇-ər-dəs
-  pronunciation_source: merriam-webster
-  word: cowardice
-devastate:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/d/devast01.mp3
-  audio_source: merriam-webster
-  definition: to destroy entirely or nearly entirely
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈde-və-ˌstāt
-  pronunciation_source: merriam-webster
-  word: devastate
-dramatic:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/d/dramat01.mp3
-  audio_source: merriam-webster
-  definition: having to do with drama
-  definition_source: merriam-webster
-  part_of_speech: adjective
-  part_of_speech_source: merriam-webster
-  pronunciation: drə-ˈma-tik
-  pronunciation_source: merriam-webster
-  word: dramatic
-elevate:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/elevat01.mp3
-  audio_source: merriam-webster
-  definition: 'to lift up : raise'
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈe-lə-ˌvāt
-  pronunciation_source: merriam-webster
-  word: elevate
-embroider:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/embroi01.mp3
-  audio_source: merriam-webster
-  definition: to make with needlework
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: im-ˈbrȯi-dər
-  pronunciation_source: merriam-webster
-  word: embroider
-endeavor:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/endeav01.mp3
-  audio_source: merriam-webster
-  definition: 'to make an effort : try hard'
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: in-ˈde-vər
-  pronunciation_source: merriam-webster
-  word: endeavor
-eradicate:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/eradic01.mp3
-  audio_source: merriam-webster
-  definition: to destroy completely
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: i-ˈra-də-ˌkāt
-  pronunciation_source: merriam-webster
-  word: eradicate
-evacuate:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evacua01.mp3
-  audio_source: merriam-webster
-  definition: to leave or cause to leave a place of danger
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: i-ˈva-kyə-ˌwāt
-  pronunciation_source: merriam-webster
-  word: evacuate
-evaporate:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evapor01.mp3
-  audio_source: merriam-webster
-  definition: to change into vapor
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: i-ˈva-pə-ˌrāt
-  pronunciation_source: merriam-webster
-  word: evaporate
-excavate:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/excava01.mp3
-  audio_source: merriam-webster
-  definition: to expose to view by digging away a covering
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈek-skə-ˌvāt
-  pronunciation_source: merriam-webster
-  word: excavate
-executive:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/execut06.mp3
-  audio_source: merriam-webster
-  definition: fitted for or relating to the managing or directing of things
-  definition_source: merriam-webster
-  part_of_speech: adjective
-  part_of_speech_source: merriam-webster
-  pronunciation: ig-ˈze-kyə-tiv
-  pronunciation_source: merriam-webster
-  word: executive
-flounder:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/f/flound01.mp3
-  audio_source: merriam-webster
-  definition: a flatfish used for food
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈflau̇n-dər
-  pronunciation_source: merriam-webster
-  word: flounder
 heroic:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/h/heroic01.mp3
-  audio_source: merriam-webster
+  word: heroic
   definition: of or relating to heroism or heroes
   definition_source: merriam-webster
   part_of_speech: adjective
   part_of_speech_source: merriam-webster
-  pronunciation: hi-ˈrō-ik
-  pronunciation_source: merriam-webster
-  word: heroic
-heroism:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/h/herois01.mp3
+  pronunciation:
+  - text: hih
+    stress: 0
+  - text: roh
+    stress: 1
+  - text: ihk
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/h/heroic01.mp3
   audio_source: merriam-webster
+heroism:
+  word: heroism
   definition: behavior showing great courage especially for a noble purpose
   definition_source: merriam-webster
   part_of_speech: noun
   part_of_speech_source: merriam-webster
-  pronunciation: ˈher-ə-ˌwi-zəm
-  pronunciation_source: merriam-webster
-  word: heroism
-historic:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/h/histor02.mp3
+  pronunciation:
+  - text: heh
+    stress: 1
+  - text: roh
+    stress: 0
+  - text: ih
+    stress: 0
+  - text: zuhm
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/h/herois01.mp3
   audio_source: merriam-webster
-  definition: famous in history
+comic:
+  word: comic
+  definition: of, relating to, or characteristic of comedy
   definition_source: merriam-webster
   part_of_speech: adjective
   part_of_speech_source: merriam-webster
-  pronunciation: hi-ˈstȯr-ik
-  pronunciation_source: merriam-webster
-  word: historic
-improvise:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/improv14.mp3
+  pronunciation:
+  - text: kah
+    stress: 1
+  - text: mihk
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/comic001.mp3
   audio_source: merriam-webster
-  definition: to speak or perform without preparing ahead of time
+atomic:
+  word: atomic
+  definition: of or relating to atoms
   definition_source: merriam-webster
-  part_of_speech: verb
+  part_of_speech: adjective
   part_of_speech_source: merriam-webster
-  pronunciation: ˈim-prə-ˌvīz
-  pronunciation_source: merriam-webster
-  word: improvise
-intervene:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/interv05.mp3
+  pronunciation:
+  - text: uh
+    stress: 0
+  - text: tah
+    stress: 1
+  - text: mihk
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/atomic01.mp3
   audio_source: merriam-webster
-  definition: to come or occur between events, places, or points of time
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: ˌin-tər-ˈvēn
-  pronunciation_source: merriam-webster
-  word: intervene
 kinetic:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/k/kineti01.mp3
-  audio_source: merriam-webster
+  word: kinetic
   definition: relating to the motions of objects and the forces associated with them
   definition_source: merriam-webster
   part_of_speech: adjective
   part_of_speech_source: merriam-webster
-  pronunciation: kə-ˈne-tik
-  pronunciation_source: merriam-webster
-  word: kinetic
-liberate:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/l/libera11.mp3
+  pronunciation:
+  - text: kih
+    stress: 0
+  - text: neh
+    stress: 1
+  - text: tihk
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/k/kineti01.mp3
   audio_source: merriam-webster
-  definition: to set free
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈli-bə-ˌrāt
-  pronunciation_source: merriam-webster
-  word: liberate
-marshmallow:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/m/marshm01.mp3
-  audio_source: merriam-webster
-  definition: a soft spongy sweet food made from corn syrup, sugar, and gelatin
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈmärsh-ˌme-lō
-  pronunciation_source: merriam-webster
-  word: marshmallow
-narrative:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/narrat06.mp3
-  audio_source: merriam-webster
-  definition: something (as a story) that is told in full detail
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈner-ə-tiv
-  pronunciation_source: merriam-webster
-  word: narrative
-nautical:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/nautic01.mp3
-  audio_source: merriam-webster
-  definition: of or relating to sailors, navigation, or ships
+dramatic:
+  word: dramatic
+  definition: having to do with drama
   definition_source: merriam-webster
   part_of_speech: adjective
   part_of_speech_source: merriam-webster
-  pronunciation: ˈnȯ-ti-kəl
-  pronunciation_source: merriam-webster
-  word: nautical
-negotiate:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/negoti05.mp3
+  pronunciation:
+  - text: druh
+    stress: 0
+  - text: ma
+    stress: 1
+  - text: tihk
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/d/dramat01.mp3
   audio_source: merriam-webster
-  definition: to have a discussion with another in order to settle something
-  definition_source: merriam-webster
-  part_of_speech: verb
-  part_of_speech_source: merriam-webster
-  pronunciation: ni-ˈgō-shē-ˌāt
-  pronunciation_source: merriam-webster
-  word: negotiate
-obsolete:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/obsole04.mp3
-  audio_source: merriam-webster
-  definition: 'no longer in use : out-of-date'
+artistic:
+  word: artistic
+  definition: relating to art or artists
   definition_source: merriam-webster
   part_of_speech: adjective
   part_of_speech_source: merriam-webster
-  pronunciation: ˌäb-sə-ˈlēt
-  pronunciation_source: merriam-webster
-  word: obsolete
+  pronunciation:
+  - text: ahr
+    stress: 0
+  - text: tih
+    stress: 1
+  - text: stihk
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/artist03.mp3
+  audio_source: merriam-webster
+historic:
+  word: historic
+  definition: famous in history
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: hih
+    stress: 0
+  - text: staw
+    stress: 1
+  - text: rihk
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/h/histor02.mp3
+  audio_source: merriam-webster
+tourism:
+  word: tourism
+  definition: The act of travelling or sightseeing, particularly away from one's home.
+  definition_source: wiktapi
+  part_of_speech: null
+  part_of_speech_source: null
+  pronunciation:
+  - text: tuu
+    stress: 1
+  - text: rih
+    stress: 0
+  - text: zuhm
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/LL-Q1860_%28eng%29-Wodencafe-tourism.wav/LL-Q1860_%28eng%29-Wodencafe-tourism.wav.mp3
+  audio_source: wiktapi
+realism:
+  word: realism
+  definition: willingness to face facts or to give in to what is necessary
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ree
+    stress: 1
+  - text: uh
+    stress: 0
+  - text: lih
+    stress: 0
+  - text: zuhm
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/realis01.mp3
+  audio_source: merriam-webster
 organism:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/organi06.mp3
-  audio_source: merriam-webster
+  word: organism
   definition: a living thing made up of one or more cells and able to carry on the
     activities of life (as using energy, growing, or reproducing)
   definition_source: merriam-webster
   part_of_speech: noun
   part_of_speech_source: merriam-webster
-  pronunciation: ˈȯr-gə-ˌni-zəm
-  pronunciation_source: merriam-webster
-  word: organism
-possessive:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/posses08.mp3
+  pronunciation:
+  - text: awr
+    stress: 1
+  - text: guh
+    stress: 0
+  - text: nih
+    stress: 2
+  - text: zuhm
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/organi06.mp3
   audio_source: merriam-webster
+capitalism:
+  word: capitalism
+  definition: a system under which the ownership of land and wealth is for the most
+    part in the hands of private individuals
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ka
+    stress: 1
+  - text: puh
+    stress: 0
+  - text: tuh
+    stress: 0
+  - text: lihzm
+    stress: 2
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/capita02.mp3
+  audio_source: merriam-webster
+secretive:
+  word: secretive
+  definition: tending to act in secret or keep secrets
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: see
+    stress: 1
+  - text: krih
+    stress: 0
+  - text: tihv
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/secret12.mp3
+  audio_source: merriam-webster
+executive:
+  word: executive
+  definition: fitted for or relating to the managing or directing of things
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ihg
+    stress: 0
+  - text: zeh
+    stress: 1
+  - text: kyuh
+    stress: 0
+  - text: tihv
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/execut06.mp3
+  audio_source: merriam-webster
+narrative:
+  word: narrative
+  definition: something (as a story) that is told in full detail
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: na
+    stress: 1
+  - text: ruh
+    stress: 0
+  - text: tihv
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/narrat06.mp3
+  audio_source: merriam-webster
+possessive:
+  word: possessive
   definition: being or belonging to the case of a noun or pronoun that shows possession
   definition_source: merriam-webster
   part_of_speech: adjective
   part_of_speech_source: merriam-webster
-  pronunciation: pə-ˈze-siv
-  pronunciation_source: merriam-webster
-  word: possessive
-proclaim:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/procla01.mp3
+  pronunciation:
+  - text: puh
+    stress: 0
+  - text: zeh
+    stress: 1
+  - text: sihv
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/posses08.mp3
   audio_source: merriam-webster
+athleticism:
+  word: athleticism
+  definition: of, relating to, or characteristic of athletes or athletics
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ath
+    stress: 0
+  - text: leh
+    stress: 1
+  - text: tih
+    stress: 0
+  - text: sih
+    stress: 0
+  - text: zuhm
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/athlet04.mp3
+  audio_source: merriam-webster
+approach:
+  word: approach
+  definition: 'to come near or nearer : draw close'
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: uh
+    stress: 0
+  - text: prohch
+    stress: 1
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/approa01.mp3
+  audio_source: merriam-webster
+zeal:
+  word: zeal
+  definition: eager desire to get something done or see something succeed
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: zeel
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/z/zeal0001.mp3
+  audio_source: merriam-webster
+typhoon:
+  word: typhoon
+  definition: a tropical cyclone in the region of the Philippines or the China Sea
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: tai
+    stress: 2
+  - text: foon
+    stress: 1
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/typhoo01.mp3
+  audio_source: merriam-webster
+marshmallow:
+  word: marshmallow
+  definition: a soft spongy sweet food made from corn syrup, sugar, and gelatin
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: mahrsh
+    stress: 1
+  - text: meh
+    stress: 2
+  - text: loh
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/m/marshm01.mp3
+  audio_source: merriam-webster
+realm:
+  word: realm
+  definition: kingdom
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: rehlm
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/realm001.mp3
+  audio_source: merriam-webster
+royalty:
+  word: royalty
+  definition: the status or power of a king or queen or his or her family
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: roy
+    stress: 1
+  - text: uhl
+    stress: 0
+  - text: tee
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/royalt01.mp3
+  audio_source: merriam-webster
+treasury:
+  word: treasury
+  definition: a place in which money and valuable objects are kept
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: treh
+    stress: 1
+  - text: zher
+    stress: 0
+  - text: ee
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/treasu09.mp3
+  audio_source: merriam-webster
+flounder:
+  word: flounder
+  definition: a flatfish used for food
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: flown
+    stress: 1
+  - text: der
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/f/flound01.mp3
+  audio_source: merriam-webster
+allowance:
+  word: allowance
+  definition: an amount of money given regularly for a specific purpose
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: uh
+    stress: 0
+  - text: low
+    stress: 1
+  - text: ihns
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/allowa03.mp3
+  audio_source: merriam-webster
+nautical:
+  word: nautical
+  definition: of or relating to sailors, navigation, or ships
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: naw
+    stress: 1
+  - text: tih
+    stress: 0
+  - text: kuhl
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/nautic01.mp3
+  audio_source: merriam-webster
+committee:
+  word: committee
+  definition: a group of persons appointed or elected to study a problem, plan an
+    event, or perform a specific duty
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: kuh
+    stress: 0
+  - text: mih
+    stress: 1
+  - text: tee
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/commit05.mp3
+  audio_source: merriam-webster
+treachery:
+  word: treachery
+  definition: the behavior of a person who betrays trust or faith
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: treh
+    stress: 1
+  - text: chuh
+    stress: 0
+  - text: ree
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/treach02.mp3
+  audio_source: merriam-webster
+embroider:
+  word: embroider
+  definition: to make with needlework
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ihm
+    stress: 0
+  - text: broy
+    stress: 1
+  - text: der
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/embroi01.mp3
+  audio_source: merriam-webster
+proclaim:
+  word: proclaim
   definition: 'to announce publicly : declare'
   definition_source: merriam-webster
   part_of_speech: verb
   part_of_speech_source: merriam-webster
-  pronunciation: prō-ˈklām
-  pronunciation_source: merriam-webster
-  word: proclaim
-prosecute:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/prosec02.mp3
+  pronunciation:
+  - text: proh
+    stress: 0
+  - text: klaym
+    stress: 1
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/procla01.mp3
   audio_source: merriam-webster
+cowardice:
+  word: cowardice
+  definition: shameful fear
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: kow
+    stress: 1
+  - text: er
+    stress: 0
+  - text: dihs
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coward02.mp3
+  audio_source: merriam-webster
+scoundrel:
+  word: scoundrel
+  definition: a mean or wicked person
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: skown
+    stress: 1
+  - text: druhl
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/scound01.mp3
+  audio_source: merriam-webster
+endeavor:
+  word: endeavor
+  definition: 'to make an effort : try hard'
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ehn
+    stress: 0
+  - text: deh
+    stress: 1
+  - text: ver
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/endeav01.mp3
+  audio_source: merriam-webster
+improvise:
+  word: improvise
+  definition: to speak or perform without preparing ahead of time
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ihm
+    stress: 1
+  - text: pruh
+    stress: 0
+  - text: vaiz
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/improv14.mp3
+  audio_source: merriam-webster
+evaporate:
+  word: evaporate
+  definition: to change into vapor
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: va
+    stress: 1
+  - text: puh
+    stress: 0
+  - text: rayt
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evapor01.mp3
+  audio_source: merriam-webster
+remote:
+  word: remote
+  definition: far off in place or time
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: rih
+    stress: 0
+  - text: moht
+    stress: 1
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/remote01.mp3
+  audio_source: merriam-webster
+obsolete:
+  word: obsolete
+  definition: 'no longer in use : out-of-date'
+  definition_source: merriam-webster
+  part_of_speech: adjective
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ahb
+    stress: 1
+  - text: suh
+    stress: 0
+  - text: leet
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/obsole04.mp3
+  audio_source: merriam-webster
+evacuate:
+  word: evacuate
+  definition: to leave or cause to leave a place of danger
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: va
+    stress: 1
+  - text: kyoo
+    stress: 0
+  - text: ayt
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evacua01.mp3
+  audio_source: merriam-webster
+coincide:
+  word: coincide
+  definition: to happen at the same time
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: koh
+    stress: 2
+  - text: ihn
+    stress: 0
+  - text: said
+    stress: 1
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coinci02.mp3
+  audio_source: merriam-webster
+appetite:
+  word: appetite
+  definition: a natural desire especially for food
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: a
+    stress: 1
+  - text: puh
+    stress: 0
+  - text: tait
+    stress: 2
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/appeti01.mp3
+  audio_source: merriam-webster
+provoke:
+  word: provoke
+  definition: to cause to become angry
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: pruh
+    stress: 0
+  - text: vohk
+    stress: 1
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/provok01.mp3
+  audio_source: merriam-webster
+elevate:
+  word: elevate
+  definition: 'to lift up : raise'
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: eh
+    stress: 1
+  - text: luh
+    stress: 0
+  - text: vayt
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/elevat01.mp3
+  audio_source: merriam-webster
+negotiate:
+  word: negotiate
+  definition: to have a discussion with another in order to settle something
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: nuh
+    stress: 0
+  - text: goh
+    stress: 1
+  - text: shee
+    stress: 0
+  - text: ayt
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/negoti05.mp3
+  audio_source: merriam-webster
+excavate:
+  word: excavate
+  definition: to expose to view by digging away a covering
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ehk
+    stress: 1
+  - text: skuh
+    stress: 0
+  - text: vayt
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/excava01.mp3
+  audio_source: merriam-webster
+intervene:
+  word: intervene
+  definition: to come or occur between events, places, or points of time
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: ihn
+    stress: 2
+  - text: ter
+    stress: 0
+  - text: veen
+    stress: 1
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/interv05.mp3
+  audio_source: merriam-webster
+devastate:
+  word: devastate
+  definition: to destroy entirely or nearly entirely
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: deh
+    stress: 1
+  - text: vuh
+    stress: 0
+  - text: stayt
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/d/devast01.mp3
+  audio_source: merriam-webster
+liberate:
+  word: liberate
+  definition: to set free
+  definition_source: merriam-webster
+  part_of_speech: verb
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: lih
+    stress: 1
+  - text: buh
+    stress: 0
+  - text: rayt
+    stress: 2
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/l/libera11.mp3
+  audio_source: merriam-webster
+schedule:
+  word: schedule
+  definition: a plan of things that need to be done and the times they will be done
+  definition_source: merriam-webster
+  part_of_speech: noun
+  part_of_speech_source: merriam-webster
+  pronunciation:
+  - text: skeh
+    stress: 1
+  - text: juul
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/schedu01.mp3
+  audio_source: merriam-webster
+prosecute:
+  word: prosecute
   definition: to carry on a legal action against an accused person to prove his or
     her guilt
   definition_source: merriam-webster
   part_of_speech: verb
   part_of_speech_source: merriam-webster
-  pronunciation: ˈprä-si-ˌkyüt
-  pronunciation_source: merriam-webster
-  word: prosecute
-provoke:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/provok01.mp3
+  pronunciation:
+  - text: pro
+    stress: 1
+  - text: sih
+    stress: 0
+  - text: kyoot
+    stress: 0
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/prosec02.mp3
   audio_source: merriam-webster
-  definition: to cause to become angry
+accumulate:
+  word: accumulate
+  definition: collect, gather
   definition_source: merriam-webster
   part_of_speech: verb
   part_of_speech_source: merriam-webster
-  pronunciation: prə-ˈvōk
-  pronunciation_source: merriam-webster
-  word: provoke
-realism:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/realis01.mp3
+  pronunciation:
+  - text: uh
+    stress: 0
+  - text: kyoo
+    stress: 1
+  - text: myuh
+    stress: 0
+  - text: layt
+    stress: 2
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/accumu01.mp3
   audio_source: merriam-webster
-  definition: willingness to face facts or to give in to what is necessary
+eradicate:
+  word: eradicate
+  definition: to destroy completely
   definition_source: merriam-webster
-  part_of_speech: noun
+  part_of_speech: verb
   part_of_speech_source: merriam-webster
-  pronunciation: ˈrē-ə-ˌli-zəm
-  pronunciation_source: merriam-webster
-  word: realism
-realm:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/realm001.mp3
+  pronunciation:
+  - text: uh
+    stress: 0
+  - text: ra
+    stress: 1
+  - text: duh
+    stress: 0
+  - text: kayt
+    stress: 2
+  pronunciation_source: quickpronounce
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/eradic01.mp3
   audio_source: merriam-webster
-  definition: kingdom
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈrelm
-  pronunciation_source: merriam-webster
-  word: realm
-remote:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/remote01.mp3
-  audio_source: merriam-webster
-  definition: far off in place or time
-  definition_source: merriam-webster
-  part_of_speech: adjective
-  part_of_speech_source: merriam-webster
-  pronunciation: ri-ˈmōt
-  pronunciation_source: merriam-webster
-  word: remote
-royalty:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/royalt01.mp3
-  audio_source: merriam-webster
-  definition: the status or power of a king or queen or his or her family
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈrȯi-əl-tē
-  pronunciation_source: merriam-webster
-  word: royalty
-schedule:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/schedu01.mp3
-  audio_source: merriam-webster
-  definition: a plan of things that need to be done and the times they will be done
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈske-jül
-  pronunciation_source: merriam-webster
-  word: schedule
-scoundrel:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/scound01.mp3
-  audio_source: merriam-webster
-  definition: a mean or wicked person
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈskau̇n-drəl
-  pronunciation_source: merriam-webster
-  word: scoundrel
-secretive:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/secret12.mp3
-  audio_source: merriam-webster
-  definition: tending to act in secret or keep secrets
-  definition_source: merriam-webster
-  part_of_speech: adjective
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈsē-krə-tiv
-  pronunciation_source: merriam-webster
-  word: secretive
-tourism:
-  audio: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/LL-Q1860_%28eng%29-Wodencafe-tourism.wav/LL-Q1860_%28eng%29-Wodencafe-tourism.wav.mp3
-  audio_source: wiktapi
-  definition: The act of travelling or sightseeing, particularly away from one's home.
-  definition_source: wiktapi
-  part_of_speech: null
-  part_of_speech_source: null
-  pronunciation: null
-  pronunciation_source: null
-  word: tourism
-treachery:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/treach02.mp3
-  audio_source: merriam-webster
-  definition: the behavior of a person who betrays trust or faith
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈtre-chə-rē
-  pronunciation_source: merriam-webster
-  word: treachery
-treasury:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/treasu09.mp3
-  audio_source: merriam-webster
-  definition: a place in which money and valuable objects are kept
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈtre-zhə-rē
-  pronunciation_source: merriam-webster
-  word: treasury
-typhoon:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/typhoo01.mp3
-  audio_source: merriam-webster
-  definition: a tropical cyclone in the region of the Philippines or the China Sea
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: tī-ˈfün
-  pronunciation_source: merriam-webster
-  word: typhoon
-zeal:
-  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/z/zeal0001.mp3
-  audio_source: merriam-webster
-  definition: eager desire to get something done or see something succeed
-  definition_source: merriam-webster
-  part_of_speech: noun
-  part_of_speech_source: merriam-webster
-  pronunciation: ˈzēl
-  pronunciation_source: merriam-webster
-  word: zeal

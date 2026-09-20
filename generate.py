@@ -17,12 +17,17 @@ SITE_DIR = BASE_DIR / "public"
 
 CACHE_FILE = BASE_DIR / ".local_dictionary.yaml"
 
-MERRIAM_WEBSTER_API = "https://www.dictionaryapi.com/api/v3/references/sd4/json"
+MERRIAM_WEBSTER_API = (
+    "https://www.dictionaryapi.com/api/v3/references/sd2/json"
+)
 MERRIAM_WEBSTER_AUDIO = (
     "https://media.merriam-webster.com/audio/prons/en/us/mp3/"
 )
 
 WIKTAPI_API = "https://api.wiktapi.dev/v1/en/word"
+QUICKPRONOUNCE_API = (
+    "https://api.quickpronounce.site/v1/dictionary"
+)
 
 MAX_RETRIES = 3
 RETRY_DELAY = 2
@@ -55,6 +60,51 @@ def get_merriam_webster_key():
     return key
 
 
+def get_quickpronounce_key():
+    key = os.environ.get("QP_API_KEY")
+
+    if not key:
+        raise RuntimeError(
+            "QP_API_KEY environment variable is not set."
+        )
+
+    return key
+
+
+def extract_quickpronounce_syllables(data):
+    if not data:
+        return None
+
+    syllables = (
+        data
+        .get("data", {})
+        .get("syllables", {})
+        .get("us")
+    )
+
+    if not syllables:
+        return None
+
+    return syllables
+
+
+def extract_quickpronounce_audio(data):
+    if not data:
+        return None
+
+    audio = (
+        data
+        .get("data", {})
+        .get("audio", {})
+        .get("content")
+    )
+
+    if not audio:
+        return None
+
+    return audio
+
+
 def load_cache():
     if not CACHE_FILE.exists():
         return {}
@@ -66,12 +116,13 @@ def save_cache(cache):
     save_yaml(CACHE_FILE, cache)
 
 
-def request_json(url, params=None):
+def request_json(url, params=None, headers=None):
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = requests.get(
                 url,
                 params=params,
+                headers=headers,
                 timeout=REQUEST_TIMEOUT,
             )
 
@@ -122,23 +173,36 @@ def extract_merriam_webster_part_of_speech(data):
     return None
 
 
-def extract_merriam_webster_pronunciation(data):
-    if not data or not isinstance(data, list):
+def extract_quickpronounce_pronunciation(data):
+    if not data:
         return None
 
-    for entry in data:
-        if not isinstance(entry, dict):
-            continue
+    pronunciation = (
+        data
+        .get("data", {})
+        .get("phonetics", {})
+        .get("us")
+    )
 
-        hwi = entry.get("hwi", {})
+    return pronunciation
 
-        for pronunciation in hwi.get("prs", []):
-            mw = pronunciation.get("mw")
 
-            if mw:
-                return mw
+def lookup_quickpronounce(word, merriam_webster_key):
+    url = f"{QUICKPRONOUNCE_API}/{word}"
 
-    return None
+    data = request_json(
+        url,
+        headers={
+            "X-API-Key": merriam_webster_key,
+        },
+    )
+
+    if not data:
+        return {}
+
+    return {
+        "pronunciation": extract_quickpronounce_syllables(data),
+    }
 
 
 def build_merriam_webster_audio_url(audio):
@@ -177,22 +241,21 @@ def extract_merriam_webster_audio(data):
     return None
 
 
-def lookup_merriam_webster(word, api_key):
+def lookup_merriam_webster(word, merriam_webster_key):
     url = f"{MERRIAM_WEBSTER_API}/{word}"
 
     data = request_json(
         url,
-        params={"key": api_key},
+        params={"key": merriam_webster_key},
     )
 
     if not data:
         return {}
 
     return {
-        "definition": extract_merriam_webster_definition(data),
-        "part_of_speech": extract_merriam_webster_part_of_speech(data),
-        "pronunciation": extract_merriam_webster_pronunciation(data),
-        "audio": extract_merriam_webster_audio(data),
+    "definition": extract_merriam_webster_definition(data),
+    "part_of_speech": extract_merriam_webster_part_of_speech(data),
+    "audio": extract_merriam_webster_audio(data),
     }
 
 
@@ -278,16 +341,24 @@ def cache_entry_complete(entry):
         "audio_source",
     )
 
-    return all(field in entry for field in required_fields)
+    if not all(field in entry for field in required_fields):
+        return False
+
+    return entry["pronunciation_source"] == "quickpronounce"
 
 
-def lookup_word(word, api_key):
+def lookup_word(word, merriam_webster_key, quickpronounce_key):
     merriam_webster = lookup_merriam_webster(
-        word,
-        api_key,
+    word,
+    merriam_webster_key,
     )
 
     wiktapi = lookup_wiktapi(word)
+
+    quickpronounce = lookup_quickpronounce(
+        word,
+        quickpronounce_key,
+    )
 
     definition = merriam_webster.get("definition")
 
@@ -307,12 +378,18 @@ def lookup_word(word, api_key):
             "wiktapi" if part_of_speech else None
         )
 
-    pronunciation = merriam_webster.get("pronunciation")
+    pronunciation = quickpronounce.get("pronunciation")
 
     if pronunciation:
-        pronunciation_source = "merriam-webster"
+        pronunciation_source = "quickpronounce"
     else:
         pronunciation_source = None
+
+    pronunciation_source = (
+        "quickpronounce"
+        if pronunciation
+        else None
+    )
 
     audio = merriam_webster.get("audio")
 
@@ -345,7 +422,7 @@ def lookup_word(word, api_key):
     }
 
 
-def enrich_word(word, cache, api_key):
+def enrich_word(word, cache, merriam_webster_key, quickpronounce_key):
     cache_key = word.lower()
 
     cached = cache.get(cache_key)
@@ -356,8 +433,9 @@ def enrich_word(word, cache, api_key):
     print(f"Looking up: {word}")
 
     result = lookup_word(
-        word,
-        api_key,
+    word,
+    merriam_webster_key,
+    quickpronounce_key,
     )
 
     if result:
@@ -383,7 +461,7 @@ def enrich_word(word, cache, api_key):
     }
 
 
-def enrich_words(words, cache, api_key):
+def enrich_words(words, cache, merriam_webster_key, quickpronounce_key):
     enriched = []
 
     for word in words:
@@ -391,7 +469,8 @@ def enrich_words(words, cache, api_key):
             enrich_word(
                 word,
                 cache,
-                api_key,
+                merriam_webster_key,
+                quickpronounce_key,
             )
         )
 
@@ -431,7 +510,13 @@ def load_tests():
     return tests
 
 
-def prepare_test(test, cache, api_key, is_latest=False):
+def prepare_test(
+    test,
+    cache,
+    merriam_webster_key,
+    quickpronounce_key,
+    is_latest=False,
+):
     prepared = dict(test)
 
     prepared["is_latest"] = is_latest
@@ -440,13 +525,15 @@ def prepare_test(test, cache, api_key, is_latest=False):
     prepared["words"] = enrich_words(
         test.get("words", []),
         cache,
-        api_key,
+        merriam_webster_key,
+        quickpronounce_key,
     )
 
     prepared["challengeWords"] = enrich_words(
         test.get("challengeWords", []),
         cache,
-        api_key,
+        merriam_webster_key,
+        quickpronounce_key,
     )
 
     return prepared
@@ -538,7 +625,8 @@ def render_historic_index(environment, display, tests):
 
 
 def main():
-    api_key = get_merriam_webster_key()
+    merriam_webster_key = get_merriam_webster_key()
+    quickpronounce_key = get_quickpronounce_key()
 
     display = load_yaml(
         CONFIG_DIR / "display.yaml"
@@ -567,7 +655,8 @@ def main():
             prepare_test(
                 test,
                 cache,
-                api_key,
+                merriam_webster_key,
+                quickpronounce_key,
                 is_latest=is_latest,
             )
         )

@@ -25,6 +25,7 @@ jobs:
     - name: Updating website artifacts -- HTML, CSS
       env:
         MW_API_KEY: ${{ secrets.MW_API_KEY }}
+        QP_API_KEY: ${{ secrets.QP_API_KEY }}
       run: python ./generate.py
     - name: Commit and Push Artifact(s).
       run: |
