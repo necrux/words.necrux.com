@@ -98,15 +98,17 @@
             <p>
                 <strong>Pronunciation:</strong>
 
-                {% for syllable in word.pronunciation %}
-                    {% if syllable.stress == 1 %}
-                        <strong>{{ syllable.text }}</strong>
-                    {% else %}
-                        {{ syllable.text }}
-                    {% endif %}
+                <span class="pronunciation">
+                    {% for syllable in word.pronunciation %}
+                        {% if syllable.stress == 1 %}
+                            <strong>{{ syllable.text }}</strong>
+                        {% else %}
+                            {{ syllable.text }}
+                        {% endif %}
 
-                    {% if not loop.last %}-{% endif %}
-                {% endfor %}
+                        {% if not loop.last %}-{% endif %}
+                    {% endfor %}
+                </span>
             </p>
             {% endif %}
 
