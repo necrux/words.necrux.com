@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        
+Practice Spelling Test | 3rd Grade Spelling Words
+
+    </title>
+
+    <script>
+        const initialTheme = localStorage.getItem("theme");
+
+        if (
+            initialTheme === "dark" ||
+            (
+                initialTheme !== "light" &&
+                window.matchMedia("(prefers-color-scheme: dark)").matches
+            )
+        ) {
+            document.documentElement.classList.add("dark");
+        }
+    </script>
+
+    <style>
+        :root {
+            --background: #f8fafc;
+            --foreground: #0f172a;
+            --accent: #0369a1;
+            --muted: #64748b;
+            --border: #cbd5e1;
+
+            --body-font: monospace;
+            --heading-font: monospace;
+            --body-size: 1.1rem;
+            --max-width: 900px;
+        }
+
+        html.dark {
+            --background: #0f172a;
+            --foreground: #e2e8f0;
+            --accent: #67e8f9;
+            --muted: #94a3b8;
+            --border: #334155;
+        }
+    </style>
+
+    <link
+        rel="stylesheet"
+        href="../../../assets/css/style.css"
+    >
+</head>
+
+<body
+    data-speech-language="en-US"
+    data-speech-rate="0.8"
+>
+
+<main>
+    <div class="theme-controls">
+        <button
+            type="button"
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Switch to dark mode"
+        >
+            ☾ Dark
+        </button>
+    </div>
+
+    
+
+<div class="practice-test">
+
+    <h1>Practice Spelling Test</h1>
+
+    <p class="instructions">
+        Listen to each word, write it down, then reveal the word to check
+        your spelling.
+    </p>
+
+    <h2>Words</h2>
+
+    <div class="practice-words">
+    
+        <div class="practice-word">
+
+            <span class="word-number">
+                1.
+            </span>
+
+            
+            <button
+                type="button"
+                class="audio-button"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/b/beach001.mp3"
+                aria-label="Play word 1"
+                title="Play word"
+            >
+                🔊
+            </button>
+            
+
+            <span class="hidden-word">
+                beach
+            </span>
+
+            <button
+                type="button"
+                class="reveal-button"
+                aria-label="Reveal word 1"
+            >
+                Reveal Word
+            </button>
+
+        </div>
+    
+        <div class="practice-word">
+
+            <span class="word-number">
+                2.
+            </span>
+
+            
+            <button
+                type="button"
+                class="audio-button"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/t/turkey01.mp3"
+                aria-label="Play word 2"
+                title="Play word"
+            >
+                🔊
+            </button>
+            
+
+            <span class="hidden-word">
+                turkey
+            </span>
+
+            <button
+                type="button"
+                class="reveal-button"
+                aria-label="Reveal word 2"
+            >
+                Reveal Word
+            </button>
+
+        </div>
+    
+        <div class="practice-word">
+
+            <span class="word-number">
+                3.
+            </span>
+
+            
+            <button
+                type="button"
+                class="audio-button"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/m/money001.mp3"
+                aria-label="Play word 3"
+                title="Play word"
+            >
+                🔊
+            </button>
+            
+
+            <span class="hidden-word">
+                money
+            </span>
+
+            <button
+                type="button"
+                class="reveal-button"
+                aria-label="Reveal word 3"
+            >
+                Reveal Word
+            </button>
+
+        </div>
+    
+        <div class="practice-word">
+
+            <span class="word-number">
+                4.
+            </span>
+
+            
+            <button
+                type="button"
+                class="audio-button"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/p/piece001.mp3"
+                aria-label="Play word 4"
+                title="Play word"
+            >
+                🔊
+            </button>
+            
+
+            <span class="hidden-word">
+                piece
+            </span>
+
+            <button
+                type="button"
+                class="reveal-button"
+                aria-label="Reveal word 4"
+            >
+                Reveal Word
+            </button>
+
+        </div>
+    
+        <div class="practice-word">
+
+            <span class="word-number">
+                5.
+            </span>
+
+            
+            <button
+                type="button"
+                class="audio-button"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/p/peek0001.mp3"
+                aria-label="Play word 5"
+                title="Play word"
+            >
+                🔊
+            </button>
+            
+
+            <span class="hidden-word">
+                peeking
+            </span>
+
+            <button
+                type="button"
+                class="reveal-button"
+                aria-label="Reveal word 5"
+            >
+                Reveal Word
+            </button>
+
+        </div>
+    
+        <div class="practice-word">
+
+            <span class="word-number">
+                6.
+            </span>
+
+            
+            <button
+                type="button"
+                class="audio-button"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/q/queen001.mp3"
+                aria-label="Play word 6"
+                title="Play word"
+            >
+                🔊
+            </button>
+            
+
+            <span class="hidden-word">
+                queen
+            </span>
+
+            <button
+                type="button"
+                class="reveal-button"
+                aria-label="Reveal word 6"
+            >
+                Reveal Word
+            </button>
+
+        </div>
+    
+        <div class="practice-word">
+
+            <span class="word-number">
+                7.
+            </span>
+
+            
+            <button
+                type="button"
+                class="audio-button"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/r/read0001.mp3"
+                aria-label="Play word 7"
+                title="Play word"
+            >
+                🔊
+            </button>
+            
+
+            <span class="hidden-word">
+                read
+            </span>
+
+            <button
+                type="button"
+                class="reveal-button"
+                aria-label="Reveal word 7"
+            >
+                Reveal Word
+            </button>
+
+        </div>
+    
+    </div>
+
+    
+
+    <p class="back-link">
+        <a href="index.html">← Back to Test</a>
+    </p>
+
+</div>
+
+
+</main>
+
+<footer class="site-footer">
+    <a
+        href="https://github.com/necrux/words.necrux.com"
+        aria-label="View project source on GitHub"
+        title="View project source on GitHub"
+    >
+        <svg
+            class="github-icon"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+        >
+            <path
+                fill="currentColor"
+                d="M12 .297c-6.63 0-12 5.373-12 12
+                   0 5.303 3.438 9.8 8.205 11.385
+                   .6.113.82-.258.82-.577
+                   0-.285-.01-1.04-.015-2.04
+                   -3.338.724-4.042-1.61-4.042-1.61
+                   -.546-1.387-1.333-1.756-1.333-1.756
+                   -1.089-.745.084-.729.084-.729
+                   1.205.084 1.84 1.237 1.84 1.237
+                   1.07 1.835 2.809 1.305 3.495.998
+                   .108-.776.418-1.305.762-1.605
+                   -2.665-.3-5.466-1.332-5.466-5.93
+                   0-1.31.465-2.38 1.235-3.22
+                   -.135-.303-.54-1.523.105-3.176
+                   0 0 1.005-.322 3.3 1.23
+                   .96-.267 1.98-.399 3-.405
+                   1.02.006 2.04.138 3 .405
+                   2.28-1.552 3.285-1.23 3.285-1.23
+                   .645 1.653.24 2.873.12 3.176
+                   .765.84 1.23 1.91 1.23 3.22
+                   0 4.61-2.805 5.625-5.475 5.92
+                   .42.36.81 1.096.81 2.22
+                   0 1.606-.015 2.896-.015 3.286
+                   0 .315.21.69.825.57
+                   C20.565 22.092 24 17.592 24 12.297
+                   c0-6.627-5.373-12-12-12"
+            />
+        </svg>
+    </a>
+</footer>
+
+    <script src="../../../assets/js/site.js"></script>
+
+</body>
+</html>

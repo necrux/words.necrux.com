@@ -1,19 +1,20 @@
 {% extends "base.html.j2" %}
 
 {% block title %}
-{{ title }} | {{ display.site.title }}
+{{ display.site.title }} | Past Words
 {% endblock %}
 
 {% block content %}
 
-<h1>{{ title }}</h1>
+<h1>Past Words</h1>
 
 <ul>
 {% for test in tests %}
     <li>
         <a href="test_{{ test.number }}.html">
-            {{ test.title }}
+            Test {{ test.number }}
         </a>
+
         {% if test.testDate %}
             — {{ test.testDate }}
         {% endif %}
@@ -22,7 +23,7 @@
 </ul>
 
 <p>
-    <a href="../index.html">Back to Home</a>
+    <a href="../index.html">← Back to Home</a>
 </p>
 
 {% endblock %}

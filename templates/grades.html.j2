@@ -1,0 +1,17 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+
+<h1>Elementary Spelling Words</h1>
+
+<ul>
+{% for grade in grades %}
+    <li>
+        <a href="{{ grade.url }}">
+            {{ grade.title }}
+        </a>
+    </li>
+{% endfor %}
+</ul>
+
+{% endblock %}

@@ -6,35 +6,45 @@
 
 {% block content %}
 
-<h1>{{ test.title }}</h1>
+<h1>Test {{ test.number }}</h1>
 
 {% if test.notes %}
 <p>
-    <h3>{{ test.notes }}</h3>
+    <strong>Notes:</strong>
+    {{ test.notes }}
 </p>
 {% endif %}
 
 {% if test.dateGiven or test.testDate %}
 <p>
     {% if test.dateGiven %}
-        <strong>Words Given:</strong> {{ test.dateGiven }}
+        <strong>Words Given:</strong>
+        {{ test.dateGiven }}
+    {% endif %}
+
+    {% if test.dateGiven and test.testDate %}
+        <br>
     {% endif %}
 
     {% if test.testDate %}
-        {% if test.dateGiven %}</br>{% endif %}
-        <strong>Test Date:</strong> {{ test.testDate }}
+        <strong>Test Date:</strong>
+        {{ test.testDate }}
     {% endif %}
+</p>
+{% endif %}
 
-    {% if test.is_latest %}
-        <p><a href="practice.html">Practice Spelling Test</a></p>
-    {% endif %}
+{% if test.is_latest %}
+<p>
+    <a href="practice.html">
+        Practice Spelling Test
+    </a>
 </p>
 {% endif %}
 
 <h2>Words</h2>
 
 <ul>
-{% for word in test.words %}
+{% for word in test.enriched_words %}
     <li>
         <strong>{{ word.word }}</strong>
 
@@ -42,8 +52,8 @@
         <button
             type="button"
             class="audio-button"
+            data-audio="{{ word.audio }}"
             aria-label="Play recorded pronunciation of {{ word.word }}"
-            onclick="new Audio('{{ word.audio }}').play()"
         >
             🔊 Recorded
         </button>
@@ -72,11 +82,12 @@
             <p>
                 <strong>Definition:</strong>
                 {{ word.definition }}
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="{{ word.definition }}"
-                aria-label="Hear browser pronunciation of {{ word.definition }}"
+                    type="button"
+                    class="speech-button"
+                    data-word="{{ word.definition }}"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -86,26 +97,29 @@
             {% if word.pronunciation %}
             <p>
                 <strong>Pronunciation:</strong>
+
                 {% for syllable in word.pronunciation %}
                     {% if syllable.stress == 1 %}
                         <strong>{{ syllable.text }}</strong>
                     {% else %}
                         {{ syllable.text }}
                     {% endif %}
+
                     {% if not loop.last %}-{% endif %}
                 {% endfor %}
             </p>
             {% endif %}
+
         </details>
     </li>
 {% endfor %}
 </ul>
 
-{% if test.challengeWords %}
+{% if test.enriched_challenge_words %}
 <h2>Challenge Words</h2>
 
 <ul>
-{% for word in test.challengeWords %}
+{% for word in test.enriched_challenge_words %}
     <li>
         <strong>{{ word.word }}</strong>
 
@@ -113,8 +127,8 @@
         <button
             type="button"
             class="audio-button"
+            data-audio="{{ word.audio }}"
             aria-label="Play recorded pronunciation of {{ word.word }}"
-            onclick="new Audio('{{ word.audio }}').play()"
         >
             🔊 Recorded
         </button>
@@ -143,11 +157,12 @@
             <p>
                 <strong>Definition:</strong>
                 {{ word.definition }}
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="{{ word.definition }}"
-                aria-label="Hear browser pronunciation of {{ word.definition }}"
+                    type="button"
+                    class="speech-button"
+                    data-word="{{ word.definition }}"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -157,16 +172,19 @@
             {% if word.pronunciation %}
             <p>
                 <strong>Pronunciation:</strong>
+
                 {% for syllable in word.pronunciation %}
                     {% if syllable.stress == 1 %}
                         <strong>{{ syllable.text }}</strong>
                     {% else %}
                         {{ syllable.text }}
                     {% endif %}
+
                     {% if not loop.last %}-{% endif %}
                 {% endfor %}
             </p>
             {% endif %}
+
         </details>
     </li>
 {% endfor %}
@@ -174,7 +192,7 @@
 {% endif %}
 
 <p>
-    <a href="../index.html">Back to Home</a>
+    <a href="../index.html">← Back to Home</a>
 </p>
 
 {% endblock %}

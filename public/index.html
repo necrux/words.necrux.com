@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>5th Grade Spelling Words</title>
+    <title>
+        5th Grade Spelling Words
+    </title>
 
     <script>
         const initialTheme = localStorage.getItem("theme");
@@ -41,115 +43,19 @@
             --muted: #94a3b8;
             --border: #334155;
         }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            background: var(--background);
-            color: var(--foreground);
-            font-family: var(--body-font);
-            font-size: var(--body-size);
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        main {
-            max-width: var(--max-width);
-            margin: 0 auto;
-            padding: 2rem;
-            padding-bottom: 5rem;
-        }
-
-        a {
-            color: var(--accent);
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-family: var(--heading-font);
-        }
-
-        details {
-            border: 1px solid var(--border);
-            margin: 1rem 0;
-            padding: 1rem;
-        }
-
-        summary {
-            cursor: pointer;
-            color: var(--accent);
-        }
-
-        .word {
-            font-weight: bold;
-        }
-
-        .pronunciation-button {
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--accent);
-            cursor: pointer;
-            font-family: var(--body-font);
-            margin-left: 0.5rem;
-            padding: 0.1rem 0.4rem;
-        }
-
-        .pronunciation-button:hover {
-            background: var(--accent);
-            color: var(--background);
-        }
-
-        .site-footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            padding: 0.75rem;
-            background: var(--background);
-        }
-
-        .site-footer a {
-            color: var(--muted);
-            line-height: 0;
-        }
-
-        .site-footer a:hover {
-            color: var(--accent);
-        }
-
-        .github-icon {
-            width: 1.5rem;
-            height: 1.5rem;
-        }
-
-        .theme-controls {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 1rem;
-        }
-
-        .theme-toggle {
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--accent);
-            cursor: pointer;
-            font-family: var(--body-font);
-            padding: 0.25rem 0.5rem;
-        }
-
-        .theme-toggle:hover {
-            background: var(--accent);
-            color: var(--background);
-        }
     </style>
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
 </head>
 
-<body>
+<body
+    data-speech-language="en-US"
+    data-speech-rate="0.8"
+>
+
 <main>
     <div class="theme-controls">
         <button
@@ -164,15 +70,22 @@
 
     
 
-<h1>5th Grade Spelling Words</h1>
+<h1>Elementary Spelling Words</h1>
 
 <ul>
+
     <li>
-        <a href="latest/index.html">Latest Words</a>
+        <a href="grades/3/index.html">
+            3rd Grade Spelling Words
+        </a>
     </li>
+
     <li>
-        <a href="historic/index.html">Past Words</a>
+        <a href="grades/5/index.html">
+            5th Grade Spelling Words
+        </a>
     </li>
+
 </ul>
 
 
@@ -221,72 +134,7 @@
     </a>
 </footer>
 
-<script>
-    const themeToggle = document.querySelector("#theme-toggle");
-
-    function setTheme(dark) {
-        document.documentElement.classList.toggle("dark", dark);
-
-        themeToggle.textContent = dark
-            ? "☀ Light"
-            : "☾ Dark";
-
-        themeToggle.setAttribute(
-            "aria-label",
-            dark
-                ? "Switch to light mode"
-                : "Switch to dark mode"
-        );
-    }
-
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "dark") {
-        setTheme(true);
-    } else if (savedTheme === "light") {
-        setTheme(false);
-    } else {
-        setTheme(
-            window.matchMedia(
-                "(prefers-color-scheme: dark)"
-            ).matches
-        );
-    }
-
-    themeToggle.addEventListener("click", () => {
-        const dark =
-            !document.documentElement.classList.contains("dark");
-
-        setTheme(dark);
-
-        localStorage.setItem(
-            "theme",
-            dark ? "dark" : "light"
-        );
-    });
-</script>
-
-<script>
-    function speakWord(word) {
-        if (!("speechSynthesis" in window)) {
-            return;
-        }
-
-        window.speechSynthesis.cancel();
-
-        const utterance = new SpeechSynthesisUtterance(word);
-        utterance.lang = "en-US";
-        utterance.rate = 0.8;
-
-        window.speechSynthesis.speak(utterance);
-    }
-
-    document.querySelectorAll(".speech-button").forEach(button => {
-        button.addEventListener("click", () => {
-            speakWord(button.dataset.word);
-        });
-    });
-</script>
+    <script src="assets/js/site.js"></script>
 
 </body>
 </html>

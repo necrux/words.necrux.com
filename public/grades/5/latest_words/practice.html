@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>5th Grade Spelling Words</title>
+    <title>
+        
+Practice Spelling Test | 5th Grade Spelling Words
+
+    </title>
 
     <script>
         const initialTheme = localStorage.getItem("theme");
@@ -41,115 +45,19 @@
             --muted: #94a3b8;
             --border: #334155;
         }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            background: var(--background);
-            color: var(--foreground);
-            font-family: var(--body-font);
-            font-size: var(--body-size);
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        main {
-            max-width: var(--max-width);
-            margin: 0 auto;
-            padding: 2rem;
-            padding-bottom: 5rem;
-        }
-
-        a {
-            color: var(--accent);
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-family: var(--heading-font);
-        }
-
-        details {
-            border: 1px solid var(--border);
-            margin: 1rem 0;
-            padding: 1rem;
-        }
-
-        summary {
-            cursor: pointer;
-            color: var(--accent);
-        }
-
-        .word {
-            font-weight: bold;
-        }
-
-        .pronunciation-button {
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--accent);
-            cursor: pointer;
-            font-family: var(--body-font);
-            margin-left: 0.5rem;
-            padding: 0.1rem 0.4rem;
-        }
-
-        .pronunciation-button:hover {
-            background: var(--accent);
-            color: var(--background);
-        }
-
-        .site-footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            padding: 0.75rem;
-            background: var(--background);
-        }
-
-        .site-footer a {
-            color: var(--muted);
-            line-height: 0;
-        }
-
-        .site-footer a:hover {
-            color: var(--accent);
-        }
-
-        .github-icon {
-            width: 1.5rem;
-            height: 1.5rem;
-        }
-
-        .theme-controls {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 1rem;
-        }
-
-        .theme-toggle {
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--accent);
-            cursor: pointer;
-            font-family: var(--body-font);
-            padding: 0.25rem 0.5rem;
-        }
-
-        .theme-toggle:hover {
-            background: var(--accent);
-            color: var(--background);
-        }
     </style>
+
+    <link
+        rel="stylesheet"
+        href="../../../assets/css/style.css"
+    >
 </head>
 
-<body>
+<body
+    data-speech-language="en-US"
+    data-speech-rate="0.8"
+>
+
 <main>
     <div class="theme-controls">
         <button
@@ -165,23 +73,29 @@
     
 
 <div class="practice-test">
+
     <h1>Practice Spelling Test</h1>
 
     <p class="instructions">
-        Listen to each word, write it down, then reveal the word to check your spelling.
+        Listen to each word, write it down, then reveal the word to check
+        your spelling.
     </p>
 
+    <h2>Words</h2>
+
     <div class="practice-words">
-        <h2>Words</h2>
-        
+    
         <div class="practice-word">
-            <span class="word-number">1.</span>
+
+            <span class="word-number">
+                1.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/i/improv14.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/i/improv14.mp3"
                 aria-label="Play word 1"
                 title="Play word"
             >
@@ -196,20 +110,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 1"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">2.</span>
+
+            <span class="word-number">
+                2.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evapor01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evapor01.mp3"
                 aria-label="Play word 2"
                 title="Play word"
             >
@@ -224,20 +142,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 2"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">3.</span>
+
+            <span class="word-number">
+                3.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/r/remote01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/r/remote01.mp3"
                 aria-label="Play word 3"
                 title="Play word"
             >
@@ -252,20 +174,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 3"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">4.</span>
+
+            <span class="word-number">
+                4.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/o/obsole04.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/o/obsole04.mp3"
                 aria-label="Play word 4"
                 title="Play word"
             >
@@ -280,20 +206,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 4"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">5.</span>
+
+            <span class="word-number">
+                5.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evacua01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evacua01.mp3"
                 aria-label="Play word 5"
                 title="Play word"
             >
@@ -308,20 +238,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 5"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">6.</span>
+
+            <span class="word-number">
+                6.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coinci02.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coinci02.mp3"
                 aria-label="Play word 6"
                 title="Play word"
             >
@@ -336,20 +270,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 6"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">7.</span>
+
+            <span class="word-number">
+                7.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/a/appeti01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/a/appeti01.mp3"
                 aria-label="Play word 7"
                 title="Play word"
             >
@@ -364,20 +302,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 7"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">8.</span>
+
+            <span class="word-number">
+                8.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/p/provok01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/p/provok01.mp3"
                 aria-label="Play word 8"
                 title="Play word"
             >
@@ -392,20 +334,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 8"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">9.</span>
+
+            <span class="word-number">
+                9.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/e/elevat01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/elevat01.mp3"
                 aria-label="Play word 9"
                 title="Play word"
             >
@@ -420,20 +366,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 9"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">10.</span>
+
+            <span class="word-number">
+                10.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/n/negoti05.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/n/negoti05.mp3"
                 aria-label="Play word 10"
                 title="Play word"
             >
@@ -448,20 +398,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 10"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">11.</span>
+
+            <span class="word-number">
+                11.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/e/excava01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/excava01.mp3"
                 aria-label="Play word 11"
                 title="Play word"
             >
@@ -476,20 +430,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 11"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">12.</span>
+
+            <span class="word-number">
+                12.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/i/interv05.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/i/interv05.mp3"
                 aria-label="Play word 12"
                 title="Play word"
             >
@@ -504,20 +462,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 12"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">13.</span>
+
+            <span class="word-number">
+                13.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/d/devast01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/d/devast01.mp3"
                 aria-label="Play word 13"
                 title="Play word"
             >
@@ -532,20 +494,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 13"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">14.</span>
+
+            <span class="word-number">
+                14.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/l/libera11.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/l/libera11.mp3"
                 aria-label="Play word 14"
                 title="Play word"
             >
@@ -560,20 +526,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 14"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">15.</span>
+
+            <span class="word-number">
+                15.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/s/schedu01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/s/schedu01.mp3"
                 aria-label="Play word 15"
                 title="Play word"
             >
@@ -588,20 +558,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 15"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">16.</span>
+
+            <span class="word-number">
+                16.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/p/prosec02.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/p/prosec02.mp3"
                 aria-label="Play word 16"
                 title="Play word"
             >
@@ -616,27 +590,31 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word 16"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
     </div>
 
     
     <h2>Challenge Words</h2>
 
     <div class="practice-words">
-        
+    
         <div class="practice-word">
-            <span class="word-number">1.</span>
+
+            <span class="word-number">
+                1.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/a/accumu01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/a/accumu01.mp3"
                 aria-label="Play challenge word 1"
                 title="Play word"
             >
@@ -651,20 +629,24 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal challenge word 1"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
         <div class="practice-word">
-            <span class="word-number">2.</span>
+
+            <span class="word-number">
+                2.
+            </span>
 
             
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('https://media.merriam-webster.com/audio/prons/en/us/mp3/e/eradic01.mp3')"
+                data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/eradic01.mp3"
                 aria-label="Play challenge word 2"
                 title="Play word"
             >
@@ -679,89 +661,21 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal challenge word 2"
             >
                 Reveal Word
             </button>
+
         </div>
-        
+    
     </div>
     
 
     <p class="back-link">
         <a href="index.html">← Back to Test</a>
     </p>
+
 </div>
-
-<style>
-    .practice-test {
-        max-width: 700px;
-        margin: 0 auto;
-    }
-
-    .instructions {
-        margin-bottom: 2rem;
-    }
-
-    .practice-words {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .practice-word {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        min-height: 3rem;
-    }
-
-    .word-number {
-        width: 2rem;
-        text-align: right;
-    }
-
-    .audio-button,
-    .reveal-button {
-        cursor: pointer;
-        font: inherit;
-    }
-
-    .audio-button {
-        padding: 0.4rem 0.6rem;
-    }
-
-    .reveal-button {
-        padding: 0.4rem 0.8rem;
-    }
-
-    .hidden-word {
-        display: none;
-    }
-
-    .hidden-word.revealed {
-        display: inline;
-        font-weight: bold;
-    }
-
-    .back-link {
-        margin-top: 2rem;
-    }
-</style>
-
-<script>
-    function playWord(url) {
-        const audio = new Audio(url);
-        audio.play();
-    }
-
-    function revealWord(button) {
-        const word = button.parentElement.querySelector(".hidden-word");
-
-        word.classList.add("revealed");
-        button.remove();
-    }
-</script>
 
 
 </main>
@@ -809,72 +723,7 @@
     </a>
 </footer>
 
-<script>
-    const themeToggle = document.querySelector("#theme-toggle");
-
-    function setTheme(dark) {
-        document.documentElement.classList.toggle("dark", dark);
-
-        themeToggle.textContent = dark
-            ? "☀ Light"
-            : "☾ Dark";
-
-        themeToggle.setAttribute(
-            "aria-label",
-            dark
-                ? "Switch to light mode"
-                : "Switch to dark mode"
-        );
-    }
-
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "dark") {
-        setTheme(true);
-    } else if (savedTheme === "light") {
-        setTheme(false);
-    } else {
-        setTheme(
-            window.matchMedia(
-                "(prefers-color-scheme: dark)"
-            ).matches
-        );
-    }
-
-    themeToggle.addEventListener("click", () => {
-        const dark =
-            !document.documentElement.classList.contains("dark");
-
-        setTheme(dark);
-
-        localStorage.setItem(
-            "theme",
-            dark ? "dark" : "light"
-        );
-    });
-</script>
-
-<script>
-    function speakWord(word) {
-        if (!("speechSynthesis" in window)) {
-            return;
-        }
-
-        window.speechSynthesis.cancel();
-
-        const utterance = new SpeechSynthesisUtterance(word);
-        utterance.lang = "en-US";
-        utterance.rate = 0.8;
-
-        window.speechSynthesis.speak(utterance);
-    }
-
-    document.querySelectorAll(".speech-button").forEach(button => {
-        button.addEventListener("click", () => {
-            speakWord(button.dataset.word);
-        });
-    });
-</script>
+    <script src="../../../assets/js/site.js"></script>
 
 </body>
 </html>
