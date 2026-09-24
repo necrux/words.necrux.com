@@ -1,16 +1,27 @@
 {% extends "base.html.j2" %}
 
+{% block title %}
+{{ display.site.title }}
+{% endblock %}
+
 {% block content %}
 
-<h1>5th Grade Spelling Words</h1>
+<h1>{{ display.site.title }}</h1>
 
 <ul>
     <li>
-        <a href="{{ latest_url }}">Latest Words</a>
+        <a href="latest_words/index.html">
+            Latest Words
+        </a>
     </li>
+
+    {% if tests|length > 1 %}
     <li>
-        <a href="{{ historic_url }}">Past Words</a>
+        <a href="past_words/index.html">
+            Past Words
+        </a>
     </li>
+    {% endif %}
 </ul>
 
 {% endblock %}

@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>
-Test 2 | 5th Grade Spelling Words
-</title>
+        
+ | 5th Grade Spelling Words
+
+    </title>
 
     <script>
         const initialTheme = localStorage.getItem("theme");
@@ -43,115 +45,19 @@ Test 2 | 5th Grade Spelling Words
             --muted: #94a3b8;
             --border: #334155;
         }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            background: var(--background);
-            color: var(--foreground);
-            font-family: var(--body-font);
-            font-size: var(--body-size);
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        main {
-            max-width: var(--max-width);
-            margin: 0 auto;
-            padding: 2rem;
-            padding-bottom: 5rem;
-        }
-
-        a {
-            color: var(--accent);
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-family: var(--heading-font);
-        }
-
-        details {
-            border: 1px solid var(--border);
-            margin: 1rem 0;
-            padding: 1rem;
-        }
-
-        summary {
-            cursor: pointer;
-            color: var(--accent);
-        }
-
-        .word {
-            font-weight: bold;
-        }
-
-        .pronunciation-button {
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--accent);
-            cursor: pointer;
-            font-family: var(--body-font);
-            margin-left: 0.5rem;
-            padding: 0.1rem 0.4rem;
-        }
-
-        .pronunciation-button:hover {
-            background: var(--accent);
-            color: var(--background);
-        }
-
-        .site-footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            padding: 0.75rem;
-            background: var(--background);
-        }
-
-        .site-footer a {
-            color: var(--muted);
-            line-height: 0;
-        }
-
-        .site-footer a:hover {
-            color: var(--accent);
-        }
-
-        .github-icon {
-            width: 1.5rem;
-            height: 1.5rem;
-        }
-
-        .theme-controls {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 1rem;
-        }
-
-        .theme-toggle {
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--accent);
-            cursor: pointer;
-            font-family: var(--body-font);
-            padding: 0.25rem 0.5rem;
-        }
-
-        .theme-toggle:hover {
-            background: var(--accent);
-            color: var(--background);
-        }
     </style>
+
+    <link
+        rel="stylesheet"
+        href="../../../assets/css/style.css"
+    >
 </head>
 
-<body>
+<body
+    data-speech-language="en-US"
+    data-speech-rate="0.8"
+>
+
 <main>
     <div class="theme-controls">
         <button
@@ -166,26 +72,38 @@ Test 2 | 5th Grade Spelling Words
 
     
 
-<h1>Test 2</h1>
+<h1>Test 3</h1>
 
 
 <p>
-    <h3>Words with vowel teams.</h3>
+    <strong>Notes:</strong>
+    Words with VCe syllables.
 </p>
 
 
 
 <p>
     
-        <strong>Words Given:</strong> 09-21-2026
+        <strong>Words Given:</strong>
+        09-21-2026
     
 
     
-        </br>
-        <strong>Test Date:</strong> 09-16-2026
+        <br>
     
 
     
+        <strong>Test Date:</strong>
+        10-02-2026
+    
+</p>
+
+
+
+<p>
+    <a href="practice.html">
+        Practice Spelling Test
+    </a>
 </p>
 
 
@@ -194,14 +112,14 @@ Test 2 | 5th Grade Spelling Words
 <ul>
 
     <li>
-        <strong>approach</strong>
+        <strong>improvise</strong>
 
         
         <button
             type="button"
             class="audio-button"
-            aria-label="Play recorded pronunciation of approach"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/a/approa01.mp3').play()"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/i/improv14.mp3"
+            aria-label="Play recorded pronunciation of improvise"
         >
             🔊 Recorded
         </button>
@@ -210,8 +128,8 @@ Test 2 | 5th Grade Spelling Words
         <button
             type="button"
             class="speech-button"
-            data-word="approach"
-            aria-label="Hear browser pronunciation of approach"
+            data-word="improvise"
+            aria-label="Hear browser pronunciation of improvise"
         >
             🗣️ Speak
         </button>
@@ -229,12 +147,13 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Definition:</strong>
-                to come near or nearer : draw close
+                to speak or perform without preparing ahead of time
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="to come near or nearer : draw close"
-                aria-label="Hear browser pronunciation of to come near or nearer : draw close"
+                    type="button"
+                    class="speech-button"
+                    data-word="to speak or perform without preparing ahead of time"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -244,31 +163,41 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Pronunciation:</strong>
+
                 
                     
-                        uh
+                        <strong>ihm</strong>
                     
+
                     -
                 
                     
-                        <strong>prohch</strong>
+                        pruh
                     
+
+                    -
+                
+                    
+                        vaiz
+                    
+
                     
                 
             </p>
             
+
         </details>
     </li>
 
     <li>
-        <strong>zeal</strong>
+        <strong>evaporate</strong>
 
         
         <button
             type="button"
             class="audio-button"
-            aria-label="Play recorded pronunciation of zeal"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/z/zeal0001.mp3').play()"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evapor01.mp3"
+            aria-label="Play recorded pronunciation of evaporate"
         >
             🔊 Recorded
         </button>
@@ -277,8 +206,8 @@ Test 2 | 5th Grade Spelling Words
         <button
             type="button"
             class="speech-button"
-            data-word="zeal"
-            aria-label="Hear browser pronunciation of zeal"
+            data-word="evaporate"
+            aria-label="Hear browser pronunciation of evaporate"
         >
             🗣️ Speak
         </button>
@@ -289,19 +218,20 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Part of Speech:</strong>
-                noun
+                verb
             </p>
             
 
             
             <p>
                 <strong>Definition:</strong>
-                eager desire to get something done or see something succeed
+                to change into vapor
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="eager desire to get something done or see something succeed"
-                aria-label="Hear browser pronunciation of eager desire to get something done or see something succeed"
+                    type="button"
+                    class="speech-button"
+                    data-word="to change into vapor"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -311,26 +241,47 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Pronunciation:</strong>
+
                 
                     
-                        zeel
+                        ih
                     
+
+                    -
+                
+                    
+                        <strong>va</strong>
+                    
+
+                    -
+                
+                    
+                        puh
+                    
+
+                    -
+                
+                    
+                        rayt
+                    
+
                     
                 
             </p>
             
+
         </details>
     </li>
 
     <li>
-        <strong>typhoon</strong>
+        <strong>remote</strong>
 
         
         <button
             type="button"
             class="audio-button"
-            aria-label="Play recorded pronunciation of typhoon"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/t/typhoo01.mp3').play()"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/r/remote01.mp3"
+            aria-label="Play recorded pronunciation of remote"
         >
             🔊 Recorded
         </button>
@@ -339,492 +290,8 @@ Test 2 | 5th Grade Spelling Words
         <button
             type="button"
             class="speech-button"
-            data-word="typhoon"
-            aria-label="Hear browser pronunciation of typhoon"
-        >
-            🗣️ Speak
-        </button>
-
-        <details>
-            <summary>Definition</summary>
-
-            
-            <p>
-                <strong>Part of Speech:</strong>
-                noun
-            </p>
-            
-
-            
-            <p>
-                <strong>Definition:</strong>
-                a tropical cyclone in the region of the Philippines or the China Sea
-                <button
-                type="button"
-                class="speech-button"
-                data-word="a tropical cyclone in the region of the Philippines or the China Sea"
-                aria-label="Hear browser pronunciation of a tropical cyclone in the region of the Philippines or the China Sea"
-                >
-                    🗣️ Read
-                </button>
-            </p>
-            
-
-            
-            <p>
-                <strong>Pronunciation:</strong>
-                
-                    
-                        tai
-                    
-                    -
-                
-                    
-                        <strong>foon</strong>
-                    
-                    
-                
-            </p>
-            
-        </details>
-    </li>
-
-    <li>
-        <strong>marshmallow</strong>
-
-        
-        <button
-            type="button"
-            class="audio-button"
-            aria-label="Play recorded pronunciation of marshmallow"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/m/marshm01.mp3').play()"
-        >
-            🔊 Recorded
-        </button>
-        
-
-        <button
-            type="button"
-            class="speech-button"
-            data-word="marshmallow"
-            aria-label="Hear browser pronunciation of marshmallow"
-        >
-            🗣️ Speak
-        </button>
-
-        <details>
-            <summary>Definition</summary>
-
-            
-            <p>
-                <strong>Part of Speech:</strong>
-                noun
-            </p>
-            
-
-            
-            <p>
-                <strong>Definition:</strong>
-                a soft spongy sweet food made from corn syrup, sugar, and gelatin
-                <button
-                type="button"
-                class="speech-button"
-                data-word="a soft spongy sweet food made from corn syrup, sugar, and gelatin"
-                aria-label="Hear browser pronunciation of a soft spongy sweet food made from corn syrup, sugar, and gelatin"
-                >
-                    🗣️ Read
-                </button>
-            </p>
-            
-
-            
-            <p>
-                <strong>Pronunciation:</strong>
-                
-                    
-                        <strong>mahrsh</strong>
-                    
-                    -
-                
-                    
-                        meh
-                    
-                    -
-                
-                    
-                        loh
-                    
-                    
-                
-            </p>
-            
-        </details>
-    </li>
-
-    <li>
-        <strong>realm</strong>
-
-        
-        <button
-            type="button"
-            class="audio-button"
-            aria-label="Play recorded pronunciation of realm"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/r/realm001.mp3').play()"
-        >
-            🔊 Recorded
-        </button>
-        
-
-        <button
-            type="button"
-            class="speech-button"
-            data-word="realm"
-            aria-label="Hear browser pronunciation of realm"
-        >
-            🗣️ Speak
-        </button>
-
-        <details>
-            <summary>Definition</summary>
-
-            
-            <p>
-                <strong>Part of Speech:</strong>
-                noun
-            </p>
-            
-
-            
-            <p>
-                <strong>Definition:</strong>
-                kingdom
-                <button
-                type="button"
-                class="speech-button"
-                data-word="kingdom"
-                aria-label="Hear browser pronunciation of kingdom"
-                >
-                    🗣️ Read
-                </button>
-            </p>
-            
-
-            
-            <p>
-                <strong>Pronunciation:</strong>
-                
-                    
-                        rehlm
-                    
-                    
-                
-            </p>
-            
-        </details>
-    </li>
-
-    <li>
-        <strong>royalty</strong>
-
-        
-        <button
-            type="button"
-            class="audio-button"
-            aria-label="Play recorded pronunciation of royalty"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/r/royalt01.mp3').play()"
-        >
-            🔊 Recorded
-        </button>
-        
-
-        <button
-            type="button"
-            class="speech-button"
-            data-word="royalty"
-            aria-label="Hear browser pronunciation of royalty"
-        >
-            🗣️ Speak
-        </button>
-
-        <details>
-            <summary>Definition</summary>
-
-            
-            <p>
-                <strong>Part of Speech:</strong>
-                noun
-            </p>
-            
-
-            
-            <p>
-                <strong>Definition:</strong>
-                the status or power of a king or queen or his or her family
-                <button
-                type="button"
-                class="speech-button"
-                data-word="the status or power of a king or queen or his or her family"
-                aria-label="Hear browser pronunciation of the status or power of a king or queen or his or her family"
-                >
-                    🗣️ Read
-                </button>
-            </p>
-            
-
-            
-            <p>
-                <strong>Pronunciation:</strong>
-                
-                    
-                        <strong>roy</strong>
-                    
-                    -
-                
-                    
-                        uhl
-                    
-                    -
-                
-                    
-                        tee
-                    
-                    
-                
-            </p>
-            
-        </details>
-    </li>
-
-    <li>
-        <strong>treasury</strong>
-
-        
-        <button
-            type="button"
-            class="audio-button"
-            aria-label="Play recorded pronunciation of treasury"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/t/treasu09.mp3').play()"
-        >
-            🔊 Recorded
-        </button>
-        
-
-        <button
-            type="button"
-            class="speech-button"
-            data-word="treasury"
-            aria-label="Hear browser pronunciation of treasury"
-        >
-            🗣️ Speak
-        </button>
-
-        <details>
-            <summary>Definition</summary>
-
-            
-            <p>
-                <strong>Part of Speech:</strong>
-                noun
-            </p>
-            
-
-            
-            <p>
-                <strong>Definition:</strong>
-                a place in which money and valuable objects are kept
-                <button
-                type="button"
-                class="speech-button"
-                data-word="a place in which money and valuable objects are kept"
-                aria-label="Hear browser pronunciation of a place in which money and valuable objects are kept"
-                >
-                    🗣️ Read
-                </button>
-            </p>
-            
-
-            
-            <p>
-                <strong>Pronunciation:</strong>
-                
-                    
-                        <strong>treh</strong>
-                    
-                    -
-                
-                    
-                        zher
-                    
-                    -
-                
-                    
-                        ee
-                    
-                    
-                
-            </p>
-            
-        </details>
-    </li>
-
-    <li>
-        <strong>flounder</strong>
-
-        
-        <button
-            type="button"
-            class="audio-button"
-            aria-label="Play recorded pronunciation of flounder"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/f/flound01.mp3').play()"
-        >
-            🔊 Recorded
-        </button>
-        
-
-        <button
-            type="button"
-            class="speech-button"
-            data-word="flounder"
-            aria-label="Hear browser pronunciation of flounder"
-        >
-            🗣️ Speak
-        </button>
-
-        <details>
-            <summary>Definition</summary>
-
-            
-            <p>
-                <strong>Part of Speech:</strong>
-                noun
-            </p>
-            
-
-            
-            <p>
-                <strong>Definition:</strong>
-                a flatfish used for food
-                <button
-                type="button"
-                class="speech-button"
-                data-word="a flatfish used for food"
-                aria-label="Hear browser pronunciation of a flatfish used for food"
-                >
-                    🗣️ Read
-                </button>
-            </p>
-            
-
-            
-            <p>
-                <strong>Pronunciation:</strong>
-                
-                    
-                        <strong>flown</strong>
-                    
-                    -
-                
-                    
-                        der
-                    
-                    
-                
-            </p>
-            
-        </details>
-    </li>
-
-    <li>
-        <strong>allowance</strong>
-
-        
-        <button
-            type="button"
-            class="audio-button"
-            aria-label="Play recorded pronunciation of allowance"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/a/allowa03.mp3').play()"
-        >
-            🔊 Recorded
-        </button>
-        
-
-        <button
-            type="button"
-            class="speech-button"
-            data-word="allowance"
-            aria-label="Hear browser pronunciation of allowance"
-        >
-            🗣️ Speak
-        </button>
-
-        <details>
-            <summary>Definition</summary>
-
-            
-            <p>
-                <strong>Part of Speech:</strong>
-                noun
-            </p>
-            
-
-            
-            <p>
-                <strong>Definition:</strong>
-                an amount of money given regularly for a specific purpose
-                <button
-                type="button"
-                class="speech-button"
-                data-word="an amount of money given regularly for a specific purpose"
-                aria-label="Hear browser pronunciation of an amount of money given regularly for a specific purpose"
-                >
-                    🗣️ Read
-                </button>
-            </p>
-            
-
-            
-            <p>
-                <strong>Pronunciation:</strong>
-                
-                    
-                        uh
-                    
-                    -
-                
-                    
-                        <strong>low</strong>
-                    
-                    -
-                
-                    
-                        ihns
-                    
-                    
-                
-            </p>
-            
-        </details>
-    </li>
-
-    <li>
-        <strong>nautical</strong>
-
-        
-        <button
-            type="button"
-            class="audio-button"
-            aria-label="Play recorded pronunciation of nautical"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/n/nautic01.mp3').play()"
-        >
-            🔊 Recorded
-        </button>
-        
-
-        <button
-            type="button"
-            class="speech-button"
-            data-word="nautical"
-            aria-label="Hear browser pronunciation of nautical"
+            data-word="remote"
+            aria-label="Hear browser pronunciation of remote"
         >
             🗣️ Speak
         </button>
@@ -842,12 +309,13 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Definition:</strong>
-                of or relating to sailors, navigation, or ships
+                far off in place or time
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="of or relating to sailors, navigation, or ships"
-                aria-label="Hear browser pronunciation of of or relating to sailors, navigation, or ships"
+                    type="button"
+                    class="speech-button"
+                    data-word="far off in place or time"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -857,36 +325,35 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Pronunciation:</strong>
+
                 
                     
-                        <strong>naw</strong>
+                        rih
                     
+
                     -
                 
                     
-                        tih
+                        <strong>moht</strong>
                     
-                    -
-                
-                    
-                        kuhl
-                    
+
                     
                 
             </p>
             
+
         </details>
     </li>
 
     <li>
-        <strong>committee</strong>
+        <strong>obsolete</strong>
 
         
         <button
             type="button"
             class="audio-button"
-            aria-label="Play recorded pronunciation of committee"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/c/commit05.mp3').play()"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/o/obsole04.mp3"
+            aria-label="Play recorded pronunciation of obsolete"
         >
             🔊 Recorded
         </button>
@@ -895,8 +362,8 @@ Test 2 | 5th Grade Spelling Words
         <button
             type="button"
             class="speech-button"
-            data-word="committee"
-            aria-label="Hear browser pronunciation of committee"
+            data-word="obsolete"
+            aria-label="Hear browser pronunciation of obsolete"
         >
             🗣️ Speak
         </button>
@@ -907,19 +374,20 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Part of Speech:</strong>
-                noun
+                adjective
             </p>
             
 
             
             <p>
                 <strong>Definition:</strong>
-                a group of persons appointed or elected to study a problem, plan an event, or perform a specific duty
+                no longer in use : out-of-date
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="a group of persons appointed or elected to study a problem, plan an event, or perform a specific duty"
-                aria-label="Hear browser pronunciation of a group of persons appointed or elected to study a problem, plan an event, or perform a specific duty"
+                    type="button"
+                    class="speech-button"
+                    data-word="no longer in use : out-of-date"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -929,36 +397,41 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Pronunciation:</strong>
+
                 
                     
-                        kuh
+                        <strong>ahb</strong>
                     
+
                     -
                 
                     
-                        <strong>mih</strong>
+                        suh
                     
+
                     -
                 
                     
-                        tee
+                        leet
                     
+
                     
                 
             </p>
             
+
         </details>
     </li>
 
     <li>
-        <strong>treachery</strong>
+        <strong>evacuate</strong>
 
         
         <button
             type="button"
             class="audio-button"
-            aria-label="Play recorded pronunciation of treachery"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/t/treach02.mp3').play()"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/evacua01.mp3"
+            aria-label="Play recorded pronunciation of evacuate"
         >
             🔊 Recorded
         </button>
@@ -967,80 +440,8 @@ Test 2 | 5th Grade Spelling Words
         <button
             type="button"
             class="speech-button"
-            data-word="treachery"
-            aria-label="Hear browser pronunciation of treachery"
-        >
-            🗣️ Speak
-        </button>
-
-        <details>
-            <summary>Definition</summary>
-
-            
-            <p>
-                <strong>Part of Speech:</strong>
-                noun
-            </p>
-            
-
-            
-            <p>
-                <strong>Definition:</strong>
-                the behavior of a person who betrays trust or faith
-                <button
-                type="button"
-                class="speech-button"
-                data-word="the behavior of a person who betrays trust or faith"
-                aria-label="Hear browser pronunciation of the behavior of a person who betrays trust or faith"
-                >
-                    🗣️ Read
-                </button>
-            </p>
-            
-
-            
-            <p>
-                <strong>Pronunciation:</strong>
-                
-                    
-                        <strong>treh</strong>
-                    
-                    -
-                
-                    
-                        chuh
-                    
-                    -
-                
-                    
-                        ree
-                    
-                    
-                
-            </p>
-            
-        </details>
-    </li>
-
-    <li>
-        <strong>embroider</strong>
-
-        
-        <button
-            type="button"
-            class="audio-button"
-            aria-label="Play recorded pronunciation of embroider"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/e/embroi01.mp3').play()"
-        >
-            🔊 Recorded
-        </button>
-        
-
-        <button
-            type="button"
-            class="speech-button"
-            data-word="embroider"
-            aria-label="Hear browser pronunciation of embroider"
+            data-word="evacuate"
+            aria-label="Hear browser pronunciation of evacuate"
         >
             🗣️ Speak
         </button>
@@ -1058,12 +459,13 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Definition:</strong>
-                to make with needlework
+                to leave or cause to leave a place of danger
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="to make with needlework"
-                aria-label="Hear browser pronunciation of to make with needlework"
+                    type="button"
+                    class="speech-button"
+                    data-word="to leave or cause to leave a place of danger"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -1073,36 +475,47 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Pronunciation:</strong>
+
                 
                     
-                        ihm
+                        ih
                     
+
                     -
                 
                     
-                        <strong>broy</strong>
+                        <strong>va</strong>
                     
+
                     -
                 
                     
-                        der
+                        kyoo
                     
+
+                    -
+                
+                    
+                        ayt
+                    
+
                     
                 
             </p>
             
+
         </details>
     </li>
 
     <li>
-        <strong>proclaim</strong>
+        <strong>coincide</strong>
 
         
         <button
             type="button"
             class="audio-button"
-            aria-label="Play recorded pronunciation of proclaim"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/p/procla01.mp3').play()"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coinci02.mp3"
+            aria-label="Play recorded pronunciation of coincide"
         >
             🔊 Recorded
         </button>
@@ -1111,8 +524,8 @@ Test 2 | 5th Grade Spelling Words
         <button
             type="button"
             class="speech-button"
-            data-word="proclaim"
-            aria-label="Hear browser pronunciation of proclaim"
+            data-word="coincide"
+            aria-label="Hear browser pronunciation of coincide"
         >
             🗣️ Speak
         </button>
@@ -1130,12 +543,13 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Definition:</strong>
-                to announce publicly : declare
+                to happen at the same time
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="to announce publicly : declare"
-                aria-label="Hear browser pronunciation of to announce publicly : declare"
+                    type="button"
+                    class="speech-button"
+                    data-word="to happen at the same time"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -1145,31 +559,41 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Pronunciation:</strong>
+
                 
                     
-                        proh
+                        koh
                     
+
                     -
                 
                     
-                        <strong>klaym</strong>
+                        ihn
                     
+
+                    -
+                
+                    
+                        <strong>said</strong>
+                    
+
                     
                 
             </p>
             
+
         </details>
     </li>
 
     <li>
-        <strong>cowardice</strong>
+        <strong>appetite</strong>
 
         
         <button
             type="button"
             class="audio-button"
-            aria-label="Play recorded pronunciation of cowardice"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coward02.mp3').play()"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/a/appeti01.mp3"
+            aria-label="Play recorded pronunciation of appetite"
         >
             🔊 Recorded
         </button>
@@ -1178,8 +602,8 @@ Test 2 | 5th Grade Spelling Words
         <button
             type="button"
             class="speech-button"
-            data-word="cowardice"
-            aria-label="Hear browser pronunciation of cowardice"
+            data-word="appetite"
+            aria-label="Hear browser pronunciation of appetite"
         >
             🗣️ Speak
         </button>
@@ -1197,12 +621,13 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Definition:</strong>
-                shameful fear
+                a natural desire especially for food
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="shameful fear"
-                aria-label="Hear browser pronunciation of shameful fear"
+                    type="button"
+                    class="speech-button"
+                    data-word="a natural desire especially for food"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -1212,24 +637,725 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Pronunciation:</strong>
+
                 
                     
-                        <strong>kow</strong>
+                        <strong>a</strong>
                     
+
                     -
                 
                     
-                        er
+                        puh
                     
+
                     -
                 
                     
-                        dihs
+                        tait
                     
+
                     
                 
             </p>
             
+
+        </details>
+    </li>
+
+    <li>
+        <strong>provoke</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/p/provok01.mp3"
+            aria-label="Play recorded pronunciation of provoke"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="provoke"
+            aria-label="Hear browser pronunciation of provoke"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                verb
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                to cause to become angry
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="to cause to become angry"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        pruh
+                    
+
+                    -
+                
+                    
+                        <strong>vohk</strong>
+                    
+
+                    
+                
+            </p>
+            
+
+        </details>
+    </li>
+
+    <li>
+        <strong>elevate</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/elevat01.mp3"
+            aria-label="Play recorded pronunciation of elevate"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="elevate"
+            aria-label="Hear browser pronunciation of elevate"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                verb
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                to lift up : raise
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="to lift up : raise"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        <strong>eh</strong>
+                    
+
+                    -
+                
+                    
+                        luh
+                    
+
+                    -
+                
+                    
+                        vayt
+                    
+
+                    
+                
+            </p>
+            
+
+        </details>
+    </li>
+
+    <li>
+        <strong>negotiate</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/n/negoti05.mp3"
+            aria-label="Play recorded pronunciation of negotiate"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="negotiate"
+            aria-label="Hear browser pronunciation of negotiate"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                verb
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                to have a discussion with another in order to settle something
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="to have a discussion with another in order to settle something"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        nuh
+                    
+
+                    -
+                
+                    
+                        <strong>goh</strong>
+                    
+
+                    -
+                
+                    
+                        shee
+                    
+
+                    -
+                
+                    
+                        ayt
+                    
+
+                    
+                
+            </p>
+            
+
+        </details>
+    </li>
+
+    <li>
+        <strong>excavate</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/excava01.mp3"
+            aria-label="Play recorded pronunciation of excavate"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="excavate"
+            aria-label="Hear browser pronunciation of excavate"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                verb
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                to expose to view by digging away a covering
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="to expose to view by digging away a covering"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        <strong>ehk</strong>
+                    
+
+                    -
+                
+                    
+                        skuh
+                    
+
+                    -
+                
+                    
+                        vayt
+                    
+
+                    
+                
+            </p>
+            
+
+        </details>
+    </li>
+
+    <li>
+        <strong>intervene</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/i/interv05.mp3"
+            aria-label="Play recorded pronunciation of intervene"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="intervene"
+            aria-label="Hear browser pronunciation of intervene"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                verb
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                to come or occur between events, places, or points of time
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="to come or occur between events, places, or points of time"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        ihn
+                    
+
+                    -
+                
+                    
+                        ter
+                    
+
+                    -
+                
+                    
+                        <strong>veen</strong>
+                    
+
+                    
+                
+            </p>
+            
+
+        </details>
+    </li>
+
+    <li>
+        <strong>devastate</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/d/devast01.mp3"
+            aria-label="Play recorded pronunciation of devastate"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="devastate"
+            aria-label="Hear browser pronunciation of devastate"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                verb
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                to destroy entirely or nearly entirely
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="to destroy entirely or nearly entirely"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        <strong>deh</strong>
+                    
+
+                    -
+                
+                    
+                        vuh
+                    
+
+                    -
+                
+                    
+                        stayt
+                    
+
+                    
+                
+            </p>
+            
+
+        </details>
+    </li>
+
+    <li>
+        <strong>liberate</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/l/libera11.mp3"
+            aria-label="Play recorded pronunciation of liberate"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="liberate"
+            aria-label="Hear browser pronunciation of liberate"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                verb
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                to set free
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="to set free"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        <strong>lih</strong>
+                    
+
+                    -
+                
+                    
+                        buh
+                    
+
+                    -
+                
+                    
+                        rayt
+                    
+
+                    
+                
+            </p>
+            
+
+        </details>
+    </li>
+
+    <li>
+        <strong>schedule</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/s/schedu01.mp3"
+            aria-label="Play recorded pronunciation of schedule"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="schedule"
+            aria-label="Hear browser pronunciation of schedule"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                noun
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                a plan of things that need to be done and the times they will be done
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="a plan of things that need to be done and the times they will be done"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        <strong>skeh</strong>
+                    
+
+                    -
+                
+                    
+                        juul
+                    
+
+                    
+                
+            </p>
+            
+
+        </details>
+    </li>
+
+    <li>
+        <strong>prosecute</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/p/prosec02.mp3"
+            aria-label="Play recorded pronunciation of prosecute"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="prosecute"
+            aria-label="Hear browser pronunciation of prosecute"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                verb
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                to carry on a legal action against an accused person to prove his or her guilt
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="to carry on a legal action against an accused person to prove his or her guilt"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        <strong>pro</strong>
+                    
+
+                    -
+                
+                    
+                        sih
+                    
+
+                    -
+                
+                    
+                        kyoot
+                    
+
+                    
+                
+            </p>
+            
+
         </details>
     </li>
 
@@ -1241,14 +1367,14 @@ Test 2 | 5th Grade Spelling Words
 <ul>
 
     <li>
-        <strong>scoundrel</strong>
+        <strong>accumulate</strong>
 
         
         <button
             type="button"
             class="audio-button"
-            aria-label="Play recorded pronunciation of scoundrel"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/s/scound01.mp3').play()"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/a/accumu01.mp3"
+            aria-label="Play recorded pronunciation of accumulate"
         >
             🔊 Recorded
         </button>
@@ -1257,75 +1383,8 @@ Test 2 | 5th Grade Spelling Words
         <button
             type="button"
             class="speech-button"
-            data-word="scoundrel"
-            aria-label="Hear browser pronunciation of scoundrel"
-        >
-            🗣️ Speak
-        </button>
-
-        <details>
-            <summary>Definition</summary>
-
-            
-            <p>
-                <strong>Part of Speech:</strong>
-                noun
-            </p>
-            
-
-            
-            <p>
-                <strong>Definition:</strong>
-                a mean or wicked person
-                <button
-                type="button"
-                class="speech-button"
-                data-word="a mean or wicked person"
-                aria-label="Hear browser pronunciation of a mean or wicked person"
-                >
-                    🗣️ Read
-                </button>
-            </p>
-            
-
-            
-            <p>
-                <strong>Pronunciation:</strong>
-                
-                    
-                        <strong>skown</strong>
-                    
-                    -
-                
-                    
-                        druhl
-                    
-                    
-                
-            </p>
-            
-        </details>
-    </li>
-
-    <li>
-        <strong>endeavor</strong>
-
-        
-        <button
-            type="button"
-            class="audio-button"
-            aria-label="Play recorded pronunciation of endeavor"
-            onclick="new Audio('https://media.merriam-webster.com/audio/prons/en/us/mp3/e/endeav01.mp3').play()"
-        >
-            🔊 Recorded
-        </button>
-        
-
-        <button
-            type="button"
-            class="speech-button"
-            data-word="endeavor"
-            aria-label="Hear browser pronunciation of endeavor"
+            data-word="accumulate"
+            aria-label="Hear browser pronunciation of accumulate"
         >
             🗣️ Speak
         </button>
@@ -1343,12 +1402,13 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Definition:</strong>
-                to make an effort : try hard
+                collect, gather
+
                 <button
-                type="button"
-                class="speech-button"
-                data-word="to make an effort : try hard"
-                aria-label="Hear browser pronunciation of to make an effort : try hard"
+                    type="button"
+                    class="speech-button"
+                    data-word="collect, gather"
+                    aria-label="Hear browser pronunciation of definition"
                 >
                     🗣️ Read
                 </button>
@@ -1358,24 +1418,119 @@ Test 2 | 5th Grade Spelling Words
             
             <p>
                 <strong>Pronunciation:</strong>
+
                 
                     
-                        ehn
+                        uh
                     
+
                     -
                 
                     
-                        <strong>deh</strong>
+                        <strong>kyoo</strong>
                     
+
                     -
                 
                     
-                        ver
+                        myuh
                     
+
+                    -
+                
+                    
+                        layt
+                    
+
                     
                 
             </p>
             
+
+        </details>
+    </li>
+
+    <li>
+        <strong>eradicate</strong>
+
+        
+        <button
+            type="button"
+            class="audio-button"
+            data-audio="https://media.merriam-webster.com/audio/prons/en/us/mp3/e/eradic01.mp3"
+            aria-label="Play recorded pronunciation of eradicate"
+        >
+            🔊 Recorded
+        </button>
+        
+
+        <button
+            type="button"
+            class="speech-button"
+            data-word="eradicate"
+            aria-label="Hear browser pronunciation of eradicate"
+        >
+            🗣️ Speak
+        </button>
+
+        <details>
+            <summary>Definition</summary>
+
+            
+            <p>
+                <strong>Part of Speech:</strong>
+                verb
+            </p>
+            
+
+            
+            <p>
+                <strong>Definition:</strong>
+                to destroy completely
+
+                <button
+                    type="button"
+                    class="speech-button"
+                    data-word="to destroy completely"
+                    aria-label="Hear browser pronunciation of definition"
+                >
+                    🗣️ Read
+                </button>
+            </p>
+            
+
+            
+            <p>
+                <strong>Pronunciation:</strong>
+
+                
+                    
+                        uh
+                    
+
+                    -
+                
+                    
+                        <strong>ra</strong>
+                    
+
+                    -
+                
+                    
+                        duh
+                    
+
+                    -
+                
+                    
+                        kayt
+                    
+
+                    
+                
+            </p>
+            
+
         </details>
     </li>
 
@@ -1383,7 +1538,7 @@ Test 2 | 5th Grade Spelling Words
 
 
 <p>
-    <a href="../index.html">Back to Home</a>
+    <a href="../index.html">← Back to Home</a>
 </p>
 
 
@@ -1432,72 +1587,7 @@ Test 2 | 5th Grade Spelling Words
     </a>
 </footer>
 
-<script>
-    const themeToggle = document.querySelector("#theme-toggle");
-
-    function setTheme(dark) {
-        document.documentElement.classList.toggle("dark", dark);
-
-        themeToggle.textContent = dark
-            ? "☀ Light"
-            : "☾ Dark";
-
-        themeToggle.setAttribute(
-            "aria-label",
-            dark
-                ? "Switch to light mode"
-                : "Switch to dark mode"
-        );
-    }
-
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "dark") {
-        setTheme(true);
-    } else if (savedTheme === "light") {
-        setTheme(false);
-    } else {
-        setTheme(
-            window.matchMedia(
-                "(prefers-color-scheme: dark)"
-            ).matches
-        );
-    }
-
-    themeToggle.addEventListener("click", () => {
-        const dark =
-            !document.documentElement.classList.contains("dark");
-
-        setTheme(dark);
-
-        localStorage.setItem(
-            "theme",
-            dark ? "dark" : "light"
-        );
-    });
-</script>
-
-<script>
-    function speakWord(word) {
-        if (!("speechSynthesis" in window)) {
-            return;
-        }
-
-        window.speechSynthesis.cancel();
-
-        const utterance = new SpeechSynthesisUtterance(word);
-        utterance.lang = "en-US";
-        utterance.rate = 0.8;
-
-        window.speechSynthesis.speak(utterance);
-    }
-
-    document.querySelectorAll(".speech-button").forEach(button => {
-        button.addEventListener("click", () => {
-            speakWord(button.dataset.word);
-        });
-    });
-</script>
+    <script src="../../../assets/js/site.js"></script>
 
 </body>
 </html>

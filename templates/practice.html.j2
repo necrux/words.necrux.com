@@ -1,25 +1,35 @@
 {% extends "base.html.j2" %}
 
+{% block title %}
+Practice Spelling Test | {{ display.site.title }}
+{% endblock %}
+
 {% block content %}
 
 <div class="practice-test">
+
     <h1>Practice Spelling Test</h1>
 
     <p class="instructions">
-        Listen to each word, write it down, then reveal the word to check your spelling.
+        Listen to each word, write it down, then reveal the word to check
+        your spelling.
     </p>
 
+    <h2>Words</h2>
+
     <div class="practice-words">
-        <h2>Words</h2>
-        {% for word in test.words %}
+    {% for word in test.enriched_words %}
         <div class="practice-word">
-            <span class="word-number">{{ loop.index }}.</span>
+
+            <span class="word-number">
+                {{ loop.index }}.
+            </span>
 
             {% if word.audio %}
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('{{ word.audio }}')"
+                data-audio="{{ word.audio }}"
                 aria-label="Play word {{ loop.index }}"
                 title="Play word"
             >
@@ -34,27 +44,31 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal word {{ loop.index }}"
             >
                 Reveal Word
             </button>
+
         </div>
-        {% endfor %}
+    {% endfor %}
     </div>
 
-    {% if test.challengeWords %}
+    {% if test.enriched_challenge_words %}
     <h2>Challenge Words</h2>
 
     <div class="practice-words">
-        {% for word in test.challengeWords %}
+    {% for word in test.enriched_challenge_words %}
         <div class="practice-word">
-            <span class="word-number">{{ loop.index }}.</span>
+
+            <span class="word-number">
+                {{ loop.index }}.
+            </span>
 
             {% if word.audio %}
             <button
                 type="button"
                 class="audio-button"
-                onclick="playWord('{{ word.audio }}')"
+                data-audio="{{ word.audio }}"
                 aria-label="Play challenge word {{ loop.index }}"
                 title="Play word"
             >
@@ -69,88 +83,20 @@
             <button
                 type="button"
                 class="reveal-button"
-                onclick="revealWord(this)"
+                aria-label="Reveal challenge word {{ loop.index }}"
             >
                 Reveal Word
             </button>
+
         </div>
-        {% endfor %}
+    {% endfor %}
     </div>
     {% endif %}
 
     <p class="back-link">
         <a href="index.html">← Back to Test</a>
     </p>
+
 </div>
-
-<style>
-    .practice-test {
-        max-width: 700px;
-        margin: 0 auto;
-    }
-
-    .instructions {
-        margin-bottom: 2rem;
-    }
-
-    .practice-words {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .practice-word {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        min-height: 3rem;
-    }
-
-    .word-number {
-        width: 2rem;
-        text-align: right;
-    }
-
-    .audio-button,
-    .reveal-button {
-        cursor: pointer;
-        font: inherit;
-    }
-
-    .audio-button {
-        padding: 0.4rem 0.6rem;
-    }
-
-    .reveal-button {
-        padding: 0.4rem 0.8rem;
-    }
-
-    .hidden-word {
-        display: none;
-    }
-
-    .hidden-word.revealed {
-        display: inline;
-        font-weight: bold;
-    }
-
-    .back-link {
-        margin-top: 2rem;
-    }
-</style>
-
-<script>
-    function playWord(url) {
-        const audio = new Audio(url);
-        audio.play();
-    }
-
-    function revealWord(button) {
-        const word = button.parentElement.querySelector(".hidden-word");
-
-        word.classList.add("revealed");
-        button.remove();
-    }
-</script>
 
 {% endblock %}

@@ -1,0 +1,78 @@
+beach:
+  word: beach
+  definition: a sandy or gravelly part of the shore of an ocean or a lake
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/b/beach001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: beech
+    stress: 1
+  pronunciation_source: quickpronounce
+turkey:
+  word: turkey
+  definition: a large North American bird related to the chicken and widely raised
+    for food
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/turkey01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: tur
+    stress: 1
+  - text: kee
+    stress: 0
+  pronunciation_source: quickpronounce
+money:
+  word: money
+  definition: something (such as coins or bills) used to buy goods and services and
+    to pay people for their work
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/m/money001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: muh
+    stress: 1
+  - text: nee
+    stress: 0
+  pronunciation_source: quickpronounce
+piece:
+  word: piece
+  definition: a part cut, torn, or broken from something
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/piece001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: pees
+    stress: 0
+  pronunciation_source: quickpronounce
+peeking:
+  word: peeking
+  definition: to look in a sneaky or cautious way
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/peek0001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: pee
+    stress: 1
+  - text: kihng
+    stress: 0
+  pronunciation_source: quickpronounce
+queen:
+  word: queen
+  definition: a woman who rules a country or kingdom
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/q/queen001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: kween
+    stress: 1
+  pronunciation_source: quickpronounce
+read:
+  word: read
+  definition: to understand language through written symbols for speech sounds
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/read0001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: rehd
+    stress: 1
+  pronunciation_source: quickpronounce
