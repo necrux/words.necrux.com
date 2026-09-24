@@ -1,4 +1,4 @@
-# 5th Grade Spelling Words
+# Huebner Spelling Words
 
 This is a simple, easy-to-use website for our kids, maintained by Wes Henderson.
 
@@ -6,7 +6,7 @@ This is a simple, easy-to-use website for our kids, maintained by Wes Henderson.
 
 New spelling tests are added by creating a new file in:
 
-`words/test_#.yaml`
+`grade/#/words/test_#.yaml`
 
 The file should follow the same format as the other test files in that directory. Replace `#` with the next test number.
 
