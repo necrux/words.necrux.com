@@ -27,6 +27,7 @@ jobs:
         MW_API_KEY: ${{ secrets.MW_API_KEY }}
         QP_API_KEY: ${{ secrets.QP_API_KEY }}
       run: |
+        shopt -s extglob
         if ls grades/1/words/test_*([0-9])[0-9].yaml; then
           python ./generate.py --grade 1
         fi
