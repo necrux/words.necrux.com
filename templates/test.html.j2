@@ -48,17 +48,6 @@
     <li>
         <strong>{{ word.word }}</strong>
 
-        {% if word.audio %}
-        <button
-            type="button"
-            class="audio-button"
-            data-audio="{{ word.audio }}"
-            aria-label="Play recorded pronunciation of {{ word.word }}"
-        >
-            🔊 Recorded
-        </button>
-        {% endif %}
-
         <button
             type="button"
             class="speech-button"
@@ -124,17 +113,6 @@
 {% for word in test.enriched_challenge_words %}
     <li>
         <strong>{{ word.word }}</strong>
-
-        {% if word.audio %}
-        <button
-            type="button"
-            class="audio-button"
-            data-audio="{{ word.audio }}"
-            aria-label="Play recorded pronunciation of {{ word.word }}"
-        >
-            🔊 Recorded
-        </button>
-        {% endif %}
 
         <button
             type="button"
