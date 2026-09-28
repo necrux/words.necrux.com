@@ -1,0 +1,112 @@
+rabbit:
+  word: rabbit
+  definition: a short-tailed mammal that has soft fur and long ears and hind legs
+    and digs burrows
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/rabbit01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ra
+    stress: 1
+  - text: buht
+    stress: 0
+  pronunciation_source: quickpronounce
+napkin:
+  word: napkin
+  definition: a small piece of cloth or paper used when eating to wipe the lips or
+    fingers and protect the clothes
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/n/napkin01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: nap
+    stress: 1
+  - text: kihn
+    stress: 2
+  pronunciation_source: quickpronounce
+sunset:
+  word: sunset
+  definition: the apparent passing of the sun below the horizon
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/sunset01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: suhn
+    stress: 1
+  - text: seht
+    stress: 2
+  pronunciation_source: quickpronounce
+picnic:
+  word: picnic
+  definition: an outdoor party with food taken along and eaten in the open
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/picnic01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: pihk
+    stress: 1
+  - text: nihk
+    stress: 2
+  pronunciation_source: quickpronounce
+kitten:
+  word: kitten
+  definition: a young cat
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/k/kitten01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: kih
+    stress: 1
+  - text: tuhn
+    stress: 0
+  pronunciation_source: quickpronounce
+broke:
+  word: broke
+  definition: having no money
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/b/broke001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: brohk
+    stress: 1
+  pronunciation_source: quickpronounce
+slice:
+  word: slice
+  definition: to cut with or as if with a knife
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/slice001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: slais
+    stress: 1
+  pronunciation_source: quickpronounce
+trudge:
+  word: trudge
+  definition: to walk or march steadily and usually with much effort
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/trudge01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: truhj
+    stress: 0
+  pronunciation_source: quickpronounce
+flight:
+  word: flight
+  definition: an act of passing through the air by the use of wings
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/f/flight01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: flait
+    stress: 1
+  pronunciation_source: quickpronounce
+drive:
+  word: drive
+  definition: to direct the movement of
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/d/drive001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: draiv
+    stress: 0
+  pronunciation_source: quickpronounce
