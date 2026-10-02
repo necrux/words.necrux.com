@@ -832,3 +832,253 @@ eradicate:
   pronunciation_source: quickpronounce
   audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/eradic01.mp3
   audio_source: merriam-webster
+observe:
+  word: observe
+  definition: to watch carefully
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/observ09.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: uhb
+    stress: 0
+  - text: zurv
+    stress: 1
+  pronunciation_source: quickpronounce
+observation:
+  word: observation
+  definition: an act or the power of seeing or taking notice of something
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/observ06.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ahb
+    stress: 2
+  - text: zer
+    stress: 0
+  - text: vayshn
+    stress: 1
+  pronunciation_source: quickpronounce
+collide:
+  word: collide
+  definition: to strike against each other with strong force
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/collid01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: kuh
+    stress: 0
+  - text: laid
+    stress: 1
+  pronunciation_source: quickpronounce
+collision:
+  word: collision
+  definition: an act or instance of colliding
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/collis01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: kuh
+    stress: 0
+  - text: lihzhn
+    stress: 1
+  pronunciation_source: quickpronounce
+extend:
+  word: extend
+  definition: to hold out
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/extend01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ehk
+    stress: 0
+  - text: stehnd
+    stress: 1
+  pronunciation_source: quickpronounce
+extension:
+  word: extension
+  definition: the act of making something longer or greater
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/extens04.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ihk
+    stress: 0
+  - text: stehn
+    stress: 1
+  - text: shuhn
+    stress: 0
+  pronunciation_source: quickpronounce
+invade:
+  word: invade
+  definition: to enter by force to conquer or plunder
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/invade01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ihn
+    stress: 0
+  - text: vayd
+    stress: 1
+  pronunciation_source: quickpronounce
+invasion:
+  word: invasion
+  definition: an act of invading
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/invasi01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ihn
+    stress: 0
+  - text: vay
+    stress: 1
+  - text: zhuhn
+    stress: 0
+  pronunciation_source: quickpronounce
+occupy:
+  word: occupy
+  definition: to fill up (an extent of time or space)
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/occupy01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ah
+    stress: 1
+  - text: kyuh
+    stress: 0
+  - text: pai
+    stress: 2
+  pronunciation_source: quickpronounce
+occupation:
+  word: occupation
+  definition: a person's business or profession
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/occupa03.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ah
+    stress: 2
+  - text: kyuu
+    stress: 0
+  - text: pay
+    stress: 1
+  - text: shuhn
+    stress: 0
+  pronunciation_source: quickpronounce
+allude:
+  word: allude
+  definition: to talk about or hint at without mentioning directly
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/allude01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: uh
+    stress: 0
+  - text: lood
+    stress: 1
+  pronunciation_source: quickpronounce
+allusion:
+  word: allusion
+  definition: a statement that refers to something without mentioning it directly
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/allusi01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: uh
+    stress: 0
+  - text: loo
+    stress: 1
+  - text: zhuhn
+    stress: 0
+  pronunciation_source: quickpronounce
+apply:
+  word: apply
+  definition: to request especially in writing
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/apply001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: uh
+    stress: 0
+  - text: plai
+    stress: 1
+  pronunciation_source: quickpronounce
+application:
+  word: application
+  definition: the act or an instance of applying
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/applic05.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: a
+    stress: 2
+  - text: plih
+    stress: 0
+  - text: kay
+    stress: 1
+  - text: shuhn
+    stress: 0
+  pronunciation_source: quickpronounce
+restore:
+  word: restore
+  definition: to put or bring back to an earlier or original state
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/restor05.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: rih
+    stress: 0
+  - text: stohr
+    stress: 1
+  pronunciation_source: quickpronounce
+restoration:
+  word: restoration
+  definition: 'an act of returning something to its original condition : the result
+    of having been returned to the original condition'
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/restor03.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: reh
+    stress: 2
+  - text: ster
+    stress: 0
+  - text: ay
+    stress: 1
+  - text: shuhn
+    stress: 0
+  pronunciation_source: quickpronounce
+administration:
+  word: administration
+  definition: the act or process of administering
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/admini06.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: uhd
+    stress: 0
+  - text: mih
+    stress: 2
+  - text: nuh
+    stress: 0
+  - text: stray
+    stress: 1
+  - text: shuhn
+    stress: 0
+  pronunciation_source: quickpronounce
+irrigation:
+  word: irrigation
+  definition: an act or process of supplying with water or cleaning with a flow of
+    liquid
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/irriga02.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 2
+  - text: ruh
+    stress: 0
+  - text: gay
+    stress: 1
+  - text: shuhn
+    stress: 0
+  pronunciation_source: quickpronounce

@@ -216,3 +216,4 @@ __marimo__/
 
 # Secrets
 .secrets.sh
+.google.credentials.json
