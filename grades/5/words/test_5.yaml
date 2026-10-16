@@ -1,0 +1,25 @@
+---
+dateGiven: 10-19-2026
+testDate: 10-30-2026
+notes: "Words with il-, in-, im-, ir-."
+words:
+  - logical
+  - illogical
+  - offensive
+  - inoffensive
+  - probable
+  - improbable
+  - accurate
+  - inaccurate
+  - rational
+  - irrational
+  - legal
+  - illegal
+  - rational
+  - irrational
+  - mobile
+  - immobile
+  - impassable
+challengeWords:
+  - illumination
+  - inefficiency

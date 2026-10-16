@@ -151,7 +151,8 @@ def get_quickpronounce_key():
 # API helpers
 # ---------------------------------------------------------------------------
 
-def request_json(url, params=None, headers=None):
+
+def request_json(url, params=None, headers=None, allow_not_found=False):
     """Make a JSON request with retries."""
     for attempt in range(1, MAX_RETRIES + 1):
         try:
@@ -161,6 +162,9 @@ def request_json(url, params=None, headers=None):
                 headers=headers,
                 timeout=REQUEST_TIMEOUT,
             )
+
+            if allow_not_found and response.status_code == 404:
+                return None
 
             response.raise_for_status()
             return response.json()
@@ -175,6 +179,7 @@ def request_json(url, params=None, headers=None):
             time.sleep(RETRY_DELAY)
 
     return None
+
 
 
 # ---------------------------------------------------------------------------
@@ -216,6 +221,7 @@ def extract_quickpronounce_audio(data):
     return pronunciation.get("audio")
 
 
+
 def lookup_quickpronounce(word, quickpronounce_key):
     """Look up pronunciation information using QuickPronounce."""
     data = request_json(
@@ -223,7 +229,17 @@ def lookup_quickpronounce(word, quickpronounce_key):
         headers={
             "X-API-Key": quickpronounce_key,
         },
+        allow_not_found=True,
     )
+
+    if data is None:
+        print(f"WARNING: QuickPronounce has no entry for '{word}'.")
+
+        return {
+            "pronunciation": None,
+            "pronunciation_source": "quickpronounce",
+            "pronunciation_status": "not_found",
+        }
 
     if not isinstance(data, dict):
         return {}
@@ -236,7 +252,9 @@ def lookup_quickpronounce(word, quickpronounce_key):
     return {
         "pronunciation": syllables,
         "pronunciation_source": "quickpronounce",
+        "pronunciation_status": "found",
     }
+
 
 
 # ---------------------------------------------------------------------------
@@ -462,6 +480,7 @@ def save_cache(cache_file, cache):
     save_yaml(cache_file, cache)
 
 
+
 def cache_entry_complete(entry):
     """Return True when a cached word contains all required data."""
     required_fields = [
@@ -474,7 +493,15 @@ def cache_entry_complete(entry):
     if not all(field in entry for field in required_fields):
         return False
 
-    return entry["pronunciation_source"] == "quickpronounce"
+    if entry["pronunciation_source"] != "quickpronounce":
+        return False
+
+    # A confirmed 404 is a completed lookup, not a reason to retry.
+    if entry.get("pronunciation_status") == "not_found":
+        return True
+
+    return bool(entry["pronunciation"])
+
 
 
 # ---------------------------------------------------------------------------
@@ -985,6 +1012,26 @@ def render_grade(
             merriam_webster_key,
             quickpronounce_key,
         )
+
+
+    missing_pronunciations = sorted({
+        word
+        for entry in cache.values()
+        if entry.get("pronunciation_status") == "not_found"
+        for word in [entry.get("word")]
+        if word
+    })
+
+    if missing_pronunciations:
+        print(
+            f"\nWARNING: {len(missing_pronunciations)} "
+            "word(s) missing QuickPronounce pronunciations:"
+        )
+
+        for word in missing_pronunciations:
+            print(f"  - {word}")
+
+        print()
 
     save_cache(
         cache_file,

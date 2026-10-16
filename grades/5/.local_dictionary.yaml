@@ -1082,3 +1082,233 @@ irrigation:
   - text: shuhn
     stress: 0
   pronunciation_source: quickpronounce
+logical:
+  word: logical
+  definition: according to a proper or reasonable way of thinking
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/l/logica01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: lah
+    stress: 1
+  - text: jih
+    stress: 0
+  - text: kuhl
+    stress: 0
+  pronunciation_source: quickpronounce
+offensive:
+  word: offensive
+  definition: causing displeasure or resentment
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/o/offens05.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: aw
+    stress: 1
+  - text: fehn
+    stress: 2
+  - text: sihv
+    stress: 0
+  pronunciation_source: quickpronounce
+inoffensive:
+  word: inoffensive
+  definition: not likely to offend or bother anyone
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/inoffe01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 2
+  - text: nuh
+    stress: 0
+  - text: fehn
+    stress: 1
+  - text: sihv
+    stress: 0
+  pronunciation_source: quickpronounce
+probable:
+  word: probable
+  definition: 'reasonably sure but not certain of happening or being true : likely'
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/probab05.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: prah
+    stress: 1
+  - text: buhbl
+    stress: 0
+  pronunciation_source: quickpronounce
+improbable:
+  word: improbable
+  definition: 'not likely : not probable'
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/improb01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ihm
+    stress: 0
+  - text: prah
+    stress: 1
+  - text: buhbl
+    stress: 0
+  pronunciation_source: quickpronounce
+accurate:
+  word: accurate
+  definition: 'free from mistakes : right'
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/accura02.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: a
+    stress: 1
+  - text: kyuh
+    stress: 0
+  - text: riht
+    stress: 0
+  pronunciation_source: quickpronounce
+inaccurate:
+  word: inaccurate
+  definition: not correct or exact
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/inaccu02.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: na
+    stress: 1
+  - text: kyuh
+    stress: 0
+  - text: riht
+    stress: 0
+  pronunciation_source: quickpronounce
+rational:
+  word: rational
+  definition: having the ability to reason
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/ration04.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ra
+    stress: 1
+  - text: shuh
+    stress: 0
+  - text: nuhl
+    stress: 0
+  pronunciation_source: quickpronounce
+irrational:
+  word: irrational
+  definition: not able to reason
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/irrati01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: ra
+    stress: 1
+  - text: shuh
+    stress: 0
+  - text: nuhl
+    stress: 0
+  pronunciation_source: quickpronounce
+legal:
+  word: legal
+  definition: of or relating to law or lawyers
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/l/legal001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: lih
+    stress: 0
+  - text: gal
+    stress: 1
+  pronunciation_source: quickpronounce
+illegal:
+  word: illegal
+  definition: not allowed by the laws or rules
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/illega01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: lee
+    stress: 1
+  - text: guhl
+    stress: 0
+  pronunciation_source: quickpronounce
+mobile:
+  word: mobile
+  definition: 'easily moved : movable'
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/m/mobile02.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: moh
+    stress: 0
+  - text: beel
+    stress: 1
+  pronunciation_source: quickpronounce
+immobile:
+  word: immobile
+  definition: unable to move or be moved
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/immobi01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: moh
+    stress: 1
+  - text: buhl
+    stress: 0
+  pronunciation_source: quickpronounce
+impassable:
+  word: impassable
+  definition: impossible to pass, cross, or travel
+  part_of_speech: adjective
+  pronunciation:
+  - text: ihm
+    stress: 2
+  - text: pa
+    stress: 1
+  - text: suh
+    stress: 0
+  - text: buhl
+    stress: 0
+  pronunciation_source: quickpronounce
+illumination:
+  word: illumination
+  definition: 'the action of lighting something : the state of being lighted'
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/illumi09.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: loo
+    stress: 2
+  - text: mih
+    stress: 0
+  - text: nay
+    stress: 1
+  - text: shuhn
+    stress: 0
+  pronunciation_source: quickpronounce
+illogical:
+  word: illogical
+  definition: not using or following good reasoning
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/illogi02.mp3
+  audio_source: merriam-webster
+  pronunciation: null
+  pronunciation_source: quickpronounce
+inefficiency:
+  word: inefficiency
+  definition: the state or an instance of being ineffective or inefficient
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/ineffi03.mp3
+  audio_source: merriam-webster
+  pronunciation: null
+  pronunciation_source: quickpronounce
