@@ -1302,7 +1302,15 @@ illogical:
   part_of_speech: adjective
   audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/illogi02.mp3
   audio_source: merriam-webster
-  pronunciation: null
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: lah
+    stress: 1
+  - text: jih
+    stress: 0
+  - text: kuhl
+    stress: 0
   pronunciation_source: quickpronounce
 inefficiency:
   word: inefficiency
@@ -1310,5 +1318,15 @@ inefficiency:
   part_of_speech: noun
   audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/ineffi03.mp3
   audio_source: merriam-webster
-  pronunciation: null
+  pronunciation:
+  - text: ih
+    stress: 2
+  - text: nih
+    stress: 0
+  - text: fih
+    stress: 1
+  - text: shuhn
+    stress: 0
+  - text: see
+    stress: 0
   pronunciation_source: quickpronounce
