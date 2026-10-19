@@ -1330,3 +1330,29 @@ inefficiency:
   - text: see
     stress: 0
   pronunciation_source: quickpronounce
+secure:
+  word: secure
+  definition: free from danger or risk
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/s/secure01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: suh
+    stress: 0
+  - text: kyuur
+    stress: 1
+  pronunciation_source: quickpronounce
+insecure:
+  word: insecure
+  definition: not safe or secure
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/insecu01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ihn
+    stress: 0
+  - text: suh
+    stress: 0
+  - text: kyuur
+    stress: 1
+  pronunciation_source: quickpronounce
