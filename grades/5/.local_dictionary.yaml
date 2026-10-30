@@ -1356,3 +1356,255 @@ insecure:
   - text: kyuur
     stress: 1
   pronunciation_source: quickpronounce
+convey:
+  word: convey
+  definition: 'to carry from one place to another : transport'
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/convey01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: kuhn
+    stress: 0
+  - text: vay
+    stress: 1
+  pronunciation_source: quickpronounce
+conveying:
+  word: conveying
+  definition: 'to carry from one place to another : transport'
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/c/convey01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: kuhn
+    stress: 0
+  - text: vay
+    stress: 1
+  - text: ihng
+    stress: 0
+  pronunciation_source: quickpronounce
+industry:
+  word: industry
+  definition: businesses that provide a certain product or service
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/indust09.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ihn
+    stress: 1
+  - text: duh
+    stress: 0
+  - text: stree
+    stress: 0
+  pronunciation_source: quickpronounce
+industries:
+  word: industries
+  definition: businesses that provide a certain product or service
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/indust09.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ihn
+    stress: 1
+  - text: duh
+    stress: 0
+  - text: streez
+    stress: 0
+  pronunciation_source: quickpronounce
+revise:
+  word: revise
+  definition: to make changes that correct or improve
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/revise02.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: rih
+    stress: 0
+  - text: vaiz
+    stress: 1
+  pronunciation_source: quickpronounce
+revising:
+  word: revising
+  definition: to make changes that correct or improve
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/r/revise02.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: rih
+    stress: 0
+  - text: vai
+    stress: 1
+  - text: zihng
+    stress: 0
+  pronunciation_source: quickpronounce
+involve:
+  word: involve
+  definition: 'to draw into a situation : engage'
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/involv01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ihn
+    stress: 0
+  - text: vahlv
+    stress: 1
+  pronunciation_source: quickpronounce
+involvement:
+  word: involvement
+  definition: 'to draw into a situation : engage'
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/i/involv01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ihn
+    stress: 0
+  - text: vahlv
+    stress: 1
+  - text: muhnt
+    stress: 0
+  pronunciation_source: quickpronounce
+equip:
+  word: equip
+  definition: to provide with necessary supplies or features
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/equip001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: kwihp
+    stress: 1
+  pronunciation_source: quickpronounce
+equipped:
+  word: equipped
+  definition: to provide with necessary supplies or features
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/e/equip001.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: ih
+    stress: 0
+  - text: kwihpt
+    stress: 1
+  pronunciation_source: quickpronounce
+permit:
+  word: permit
+  definition: 'to allow to happen or do : give permission'
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/permit01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: per
+    stress: 0
+  - text: miht
+    stress: 1
+  pronunciation_source: quickpronounce
+permitting:
+  word: permitting
+  definition: 'to allow to happen or do : give permission'
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/permit01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: per
+    stress: 0
+  - text: mih
+    stress: 1
+  - text: tihng
+    stress: 0
+  pronunciation_source: quickpronounce
+benefit:
+  word: benefit
+  definition: a good or helpful result or effect
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/b/benefi11.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: beh
+    stress: 1
+  - text: nuh
+    stress: 0
+  - text: fiht
+    stress: 0
+  pronunciation_source: quickpronounce
+benefited:
+  word: benefited
+  definition: to be useful or profitable to
+  part_of_speech: verb
+  pronunciation:
+  - text: beh
+    stress: 1
+  - text: nuh
+    stress: 0
+  - text: fih
+    stress: 2
+  - text: tihd
+    stress: 0
+  pronunciation_source: quickpronounce
+theory:
+  word: theory
+  definition: an idea or opinion that is presented as true
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/theory01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: thih
+    stress: 1
+  - text: ree
+    stress: 0
+  pronunciation_source: quickpronounce
+theories:
+  word: theories
+  definition: an idea or opinion that is presented as true
+  part_of_speech: noun
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/t/theory01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: thee
+    stress: 1
+  - text: uh
+    stress: 0
+  - text: reez
+    stress: 0
+  pronunciation_source: quickpronounce
+programming:
+  word: programming
+  definition: 'to give (a computer) a set of instructions : provide with a program'
+  part_of_speech: verb
+  pronunciation:
+  - text: proh
+    stress: 1
+  - text: gra
+    stress: 0
+  - text: mihng
+    stress: 0
+  pronunciation_source: quickpronounce
+preferred:
+  word: preferred
+  definition: to like better than another or others
+  part_of_speech: verb
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/p/prefer01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: prih
+    stress: 0
+  - text: furd
+    stress: 1
+  pronunciation_source: quickpronounce
+accommodating:
+  word: accommodating
+  definition: ready to help
+  part_of_speech: adjective
+  audio: https://media.merriam-webster.com/audio/prons/en/us/mp3/a/accomm01.mp3
+  audio_source: merriam-webster
+  pronunciation:
+  - text: uh
+    stress: 0
+  - text: ko
+    stress: 1
+  - text: muh
+    stress: 0
+  - text: day
+    stress: 2
+  - text: tihng
+    stress: 0
+  pronunciation_source: quickpronounce
